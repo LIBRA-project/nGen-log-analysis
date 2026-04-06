@@ -1,0 +1,513 @@
+nGen Controller version 1.1.5.20
+10:09:29.228 | Tuesday, March 10, 2026
+10:09:29.229 | At state "Disconnected"
+10:09:29.316 | At state "Disconnected" for 00:00:00.0874512
+10:09:29.326 | Going from state "Disconnected" to "Off"
+10:09:29.326 | Progress:  0.0 %
+10:09:29.336 | Attempting to connect to neutron generator...
+10:09:29.336 | Progress:  0.0 %
+10:09:29.346 | Progress:  12.5 %
+10:09:44.923 | Progress:  0.0 %
+10:09:44.929 | Progress:  25.0 %
+10:09:44.929 | Connected to nGen-400 on COM4
+10:09:45.026 | Build = "2025.09.12_16.05"
+10:09:45.425 | Tuesday, March 10, 2026
+10:09:45.426 | Microcontroller E01S
+10:09:45.426 | Serial #42202
+10:09:45.426 | On time 96.6
+10:09:45.546 | Checking for bundled configuration:
+10:09:45.566 | 	Progress:  37.5 %
+10:09:45.566 | 	Bundled configuration not found
+10:09:46.296 | 	Progress:  50.0 %
+10:09:46.296 | Checking for user settings:
+10:09:46.315 | 	Progress:  62.5 %
+10:09:46.315 | 	No modified settings.
+10:09:46.324 | Setting up user controls:
+10:09:46.435 | 	Checking for Neutron_Count_Rate ... [ NOT present ]
+10:09:46.435 | 	Checking for Getter_Current ... [ PRESENT ]
+10:09:46.443 | 		Range: 1.5 to 1.6
+10:09:46.444 | 		Intial value = 1.528
+10:09:46.474 | 	Checking for Pulsing ... [ PRESENT ]
+10:09:46.504 | 	Checking for RF_Frequency ... [ PRESENT ]
+10:09:46.504 | 		Range: 16.2 to 16.3
+10:09:46.504 | 		Intial value = 16.28
+10:09:46.514 | 	Checking for Anode_Voltage ... [ PRESENT ]
+10:09:46.524 | 		Range: 120 to 160
+10:09:46.527 | 		Intial value = 120
+10:09:47.078 | Progress:  75.0 %
+10:09:49.516 | Progress:  87.5 %
+10:09:49.586 | Transition from "Disconnected" to "Off" took 00:00:20.2698176
+10:09:49.586 | At state "Off"
+10:09:49.596 | Progress:  100.0 %
+10:11:18.657 | Progress:  0.0 %
+10:11:20.455 | At state "Off" for 00:01:30.8688824
+10:11:20.455 | Going from state "Off" to "On"
+10:11:20.465 | Progress:  12.5 %
+10:11:20.465 | 14:10:46.433|018|Received request for '(4)On' from 'User'
+10:11:20.472 | 14:10:46.435|018|Queued request for '(4)On'
+10:11:20.475 | 14:10:46.437|016|     Desired state is up to '(4)On'
+10:11:20.475 | 14:10:46.439|016|     Starting transition to '(3)Standby'
+10:11:20.485 | 14:10:46.440|019|          Leaving state '(2)Off'
+10:11:20.485 | 14:10:46.442|019|          Running transition '(2)Off-->(3)Standby'
+10:11:20.485 | 14:10:46.444|019|               Transition has 4 steps
+10:11:20.495 | 14:10:46.446|019|               (Step 1)
+10:11:20.495 | 14:10:46.447|019|                    Checking that 'Anode' is off
+10:11:20.495 | 14:10:46.449|019|                    [X]  Completed 1 / 4 = 25%
+10:11:20.505 | 14:10:46.451|019|               (Step 2)
+10:11:21.975 | Progress:  50.0 %
+10:11:21.982 | 14:10:46.453|019|                    Setting 'Getter Current_Setpoint' to 1.528
+10:11:21.986 | 14:10:46.453|019|                    Setting 'Getter Current_Setpoint' to 1.528
+10:11:21.986 | 14:10:47.497|019|                    [X]  Completed 2 / 4 = 50%
+10:11:21.996 | 14:10:47.499|019|               (Step 3)
+10:11:22.001 | 14:10:47.500|019|                    Further changes to 'Settings Getter_Current_Operate' will take effect immediately
+10:11:22.006 | 14:10:47.503|019|                    [X]  Completed 3 / 4 = 75%
+10:11:22.007 | 14:10:47.505|019|               (Step 4)
+10:11:22.007 | 14:10:47.507|019|                    Turning on 'Getter'
+10:11:22.017 | 14:10:47.510|019|                    [X]  Completed 4 / 4 = 100%
+10:11:23.386 | Going from state "Standby" to "On"
+10:11:23.396 | Progress:  0.0 %
+10:11:23.396 | 14:10:47.511|019|               Transition succeeded
+10:11:23.396 | 14:10:47.511|019|               Transition succeeded
+10:11:23.406 | 14:10:48.948|019|          At state '(3)Standby'
+10:11:23.406 | 14:10:48.950|020|               Running actions upon reaching '(3)Standby'...
+10:11:23.406 | 14:10:48.952|020|                         Actions upon reaching '(3)Standby' finished
+10:11:23.416 | 14:10:48.953|020|               Running actions while at or above '(3)Standby'...
+10:11:23.421 | 14:10:48.956|021|                         Actions while at or above '(3)Standby' finished
+10:11:23.424 | 14:10:48.958|016|     Desired state is up to '(4)On'
+10:11:23.428 | 14:10:48.960|016|     Starting transition to '(4)On'
+10:11:25.001 | Progress:  10.5 %
+10:11:25.001 | 14:10:48.962|022|          Leaving state '(3)Standby'
+10:11:25.001 | 14:10:48.962|022|          Leaving state '(3)Standby'
+10:11:25.014 | 14:10:50.384|022|          Running transition '(3)Standby-->(4)On'
+10:11:25.015 | 14:10:50.386|022|               Transition has 19 steps
+10:11:25.022 | 14:10:50.388|022|               (Step 1)
+10:11:25.025 | 14:10:50.389|022|                    Setting 'Interlock Reset' to 1
+10:11:25.028 | 14:10:50.393|022|                    [X]  Completed 1 / 19 = 5.26%
+10:11:25.033 | 14:10:50.394|022|               (Step 2)
+10:11:25.038 | 14:10:50.396|022|                    Setting 'Interlock Reset' to 0
+10:11:25.043 | 14:10:50.399|022|                    [X]  Completed 2 / 19 = 10.5%
+10:11:25.043 | 14:10:50.400|022|               (Step 3)
+10:11:26.484 | Progress:  21.1 %
+10:11:26.484 | 14:10:50.402|022|                    Forcing fault check of 'Faults Interlock'
+10:11:26.494 | 14:10:50.402|022|                    Forcing fault check of 'Faults Interlock'
+10:11:26.494 | 14:10:51.228|022|                    Interlock = 1
+10:11:26.494 | 14:10:51.230|022|                    [X]  Completed 3 / 19 = 15.8%
+10:11:26.504 | 14:10:51.233|022|               (Step 4)
+10:11:26.504 | 14:10:51.234|022|                    Turning on 'Suppressor'
+10:11:26.514 | 14:10:51.237|022|                    [X]  Completed 4 / 19 = 21.1%
+10:11:26.514 | 14:10:51.239|022|               (Step 5)
+10:11:26.514 | 14:10:51.241|022|                    Waiting for 'Suppressor Voltage' to be between 100 and Infinity, for up to 60 s...
+10:11:28.135 | Progress:  36.8 %
+10:11:28.145 | 14:10:51.243|022|                    Suppressor Voltage = 0 ...
+10:11:28.156 | 14:10:51.243|022|                    Suppressor Voltage = 0 ...
+10:11:28.156 | 14:10:53.839|022|                    Suppressor Voltage = 404.157467266056 [ DONE ]
+10:11:28.156 | 14:10:53.841|022|                    [X]  Completed 5 / 19 = 26.3%
+10:11:28.166 | 14:10:53.843|022|               (Step 6)
+10:11:28.166 | 14:10:53.844|022|                    Setting 'Pulsing Rep_Rate' to 200
+10:11:28.176 | 14:10:53.847|022|                    [X]  Completed 6 / 19 = 31.6%
+10:11:28.183 | 14:10:53.849|022|               (Step 7)
+10:11:28.188 | 14:10:53.851|022|                    Setting 'Pulsing Duty_Cycle' to 1
+10:11:28.188 | 14:10:53.853|022|                    [X]  Completed 7 / 19 = 36.8%
+10:11:29.737 | Progress:  52.6 %
+10:11:29.737 | 14:10:53.855|022|               (Step 8)
+10:11:29.747 | 14:10:53.855|022|               (Step 8)
+10:11:29.747 | 14:10:54.393|022|                    Further changes to 'Settings Pulsing_Duty_Cycle' will take effect immediately
+10:11:29.757 | 14:10:54.395|022|                    [X]  Completed 8 / 19 = 42.1%
+10:11:29.757 | 14:10:54.397|022|               (Step 9)
+10:11:29.767 | 14:10:54.398|022|                    Turning on 'RF'
+10:11:29.767 | 14:10:54.401|022|                    [X]  Completed 9 / 19 = 47.4%
+10:11:29.777 | 14:10:54.403|022|               (Step 10)
+10:11:29.781 | 14:10:54.406|022|                    Further changes to 'Settings Anode_Voltage_Operate' won't take effect immediately
+10:11:29.785 | 14:10:54.408|022|                    [X]  Completed 10 / 19 = 52.6%
+10:11:31.325 | Progress:  63.2 %
+10:11:31.325 | 14:10:54.410|022|               (Step 11)
+10:11:31.335 | 14:10:54.410|022|               (Step 11)
+10:11:31.341 | 14:10:56.011|022|                    Setting 'Anode Voltage_Setpoint' to 50
+10:11:31.342 | 14:10:56.014|022|                    [X]  Completed 11 / 19 = 57.9%
+10:11:31.342 | 14:10:56.016|022|               (Step 12)
+10:11:31.353 | 14:10:56.017|022|                    Turning on 'Anode'
+10:11:31.354 | 14:10:56.021|022|                    [X]  Completed 12 / 19 = 63.2%
+10:11:31.360 | 14:10:56.023|022|               (Step 13)
+10:11:31.368 | 14:10:56.026|022|                    Waiting for 'Anode Voltage' to be between 20 and Infinity, for up to 60 s...
+10:11:31.368 | 14:10:56.028|022|                    Anode Voltage = 1.44850586142259 ...
+10:11:32.941 | Progress:  78.9 %
+10:11:32.941 | 14:10:57.036|022|                    Anode Voltage = 10.9354233713992 ...
+10:11:32.952 | 14:10:57.036|022|                    Anode Voltage = 10.9354233713992 ...
+10:11:32.952 | 14:10:58.618|022|                    Anode Voltage = 26.9963290216783 [ DONE ]
+10:11:32.961 | 14:10:58.620|022|                    [X]  Completed 13 / 19 = 68.4%
+10:11:32.961 | 14:10:58.622|022|               (Step 14)
+10:11:32.971 | 14:10:58.623|022|                    Further changes to 'Settings Getter_Current_Operate' won't take effect immediately
+10:11:32.971 | 14:10:58.625|022|                    [X]  Completed 14 / 19 = 73.7%
+10:11:32.971 | 14:10:58.627|022|               (Step 15)
+10:11:32.985 | 14:10:58.629|022|                    Setting 'Getter Current_Setpoint' to 2.8
+10:11:34.299 | Progress:  78.9 %
+10:11:34.299 | 14:10:58.632|022|                    [X]  Completed 15 / 19 = 78.9%
+10:11:34.309 | 14:10:58.632|022|                    [X]  Completed 15 / 19 = 78.9%
+10:11:34.309 | 14:10:59.169|022|               (Step 16)
+10:11:34.319 | 14:10:59.171|022|                    Waiting for 'Anode Current' to be between 0.1 and Infinity, for up to 60 s...
+10:11:34.319 | 14:10:59.173|022|                    Anode Current = 0.0465174866914549 ...
+10:11:34.329 | 14:11:00.189|022|                    Anode Current = 0.0459222932919527 ...
+10:11:35.099 | Progress:  78.9 %
+10:11:35.109 | 14:11:01.240|022|                    Anode Current = 0.0469142822911231 ...
+10:11:35.843 | Progress:  78.9 %
+10:11:35.852 | 14:11:02.253|022|                    Anode Current = 0.0456246965922016 ...
+10:11:36.637 | Progress:  78.9 %
+10:11:36.637 | 14:11:03.270|022|                    Anode Current = 0.0424503317948563 ...
+10:11:37.382 | Progress:  78.9 %
+10:11:37.392 | 14:11:04.287|022|                    Anode Current = 0.0462198899917038 ...
+10:11:37.912 | Progress:  78.9 %
+10:11:38.572 | Progress:  78.9 %
+10:11:38.572 | 14:11:05.294|022|                    Anode Current = 0.0464182877915379 ...
+10:11:39.212 | Progress:  78.9 %
+10:11:39.212 | 14:11:06.302|022|                    Anode Current = 0.0464182877915379 ...
+10:11:39.722 | Progress:  78.9 %
+10:11:40.363 | Progress:  78.9 %
+10:11:40.373 | 14:11:07.305|022|                    Anode Current = 0.046815083391206 ...
+10:11:40.819 | Progress:  78.9 %
+10:11:41.440 | Progress:  78.9 %
+10:11:41.440 | 14:11:08.310|022|                    Anode Current = 0.0474102767907082 ...
+10:11:42.001 | Progress:  78.9 %
+10:11:42.641 | Progress:  78.9 %
+10:11:42.651 | 14:11:09.321|022|                    Anode Current = 0.0482038679900446 ...
+10:11:43.291 | Progress:  78.9 %
+10:11:43.291 | 14:11:10.333|022|                    Anode Current = 0.0495926525888831 ...
+10:11:43.781 | Progress:  78.9 %
+10:11:44.411 | Progress:  78.9 %
+10:11:44.411 | 14:11:11.346|022|                    Anode Current = 0.0504854426881364 ...
+10:11:45.001 | Progress:  78.9 %
+10:11:45.521 | Progress:  78.9 %
+10:11:45.521 | 14:11:12.355|022|                    Anode Current = 0.0552469898841542 ...
+10:11:46.031 | Progress:  78.9 %
+10:11:46.693 | Progress:  78.9 %
+10:11:46.693 | 14:11:13.366|022|                    Anode Current = 0.0594133436806699 ...
+10:11:48.058 | Progress:  94.7 %
+10:11:48.058 | 14:11:14.378|022|                    Anode Current = 0.119230280330644 [ DONE ]
+10:11:48.058 | 14:11:14.381|022|                    [X]  Completed 16 / 19 = 84.2%
+10:11:48.068 | 14:11:14.383|022|               (Step 17)
+10:11:48.075 | 14:11:14.385|022|                    Setting 'Getter Current_Setpoint' to 1.528
+10:11:48.080 | 14:11:14.388|022|                    [X]  Completed 17 / 19 = 89.5%
+10:11:48.085 | 14:11:14.390|022|               (Step 18)
+10:11:48.090 | 14:11:14.391|022|                    Further changes to 'Settings Getter_Current_Operate' will take effect immediately
+10:11:48.095 | 14:11:14.393|022|                    [X]  Completed 18 / 19 = 94.7%
+10:11:48.100 | 14:11:14.395|022|               (Step 19)
+10:11:49.370 | Transition from "Standby" to "On" took 00:00:25.9840448
+10:11:49.370 | At state "On"
+10:11:49.390 | Progress:  100.0 %
+10:11:50.480 | Neutrons on
+10:11:50.480 | 14:11:14.397|022|                    Turning on 'Faults Blinkout'
+10:11:50.490 | 14:11:14.397|022|                    Turning on 'Faults Blinkout'
+10:11:50.490 | 14:11:14.552|022|                    [X]  Completed 19 / 19 = 100%
+10:11:50.501 | 14:11:14.554|022|               Transition succeeded
+10:11:50.507 | 14:11:14.555|022|          At state '(4)On'
+10:11:50.511 | 14:11:14.557|026|               Running actions upon reaching '(4)On'...
+10:11:50.511 | 14:11:14.560|026|                         Waiting for 3.000 seconds...
+10:11:50.522 | 14:11:14.562|016|     Waiting for a state request...
+10:11:51.653 | 14:11:17.574|026|                         [ DONE ]
+10:11:51.653 | 14:11:17.576|026|                         Ramping 'Anode Voltage_Setpoint' from 50 to 120, incrementing 15 every 1 second...
+10:11:51.663 | 14:11:17.578|026|                         Setting 'Anode Voltage_Setpoint' to 65
+10:11:52.282 | 14:11:18.611|026|                         Setting 'Anode Voltage_Setpoint' to 80
+10:11:52.825 | 14:11:19.617|026|                         Setting 'Anode Voltage_Setpoint' to 95
+10:11:54.200 | 14:11:20.633|026|                         'Anode Voltage_Setpoint' is at 120
+10:11:54.200 | 14:11:20.635|026|                         Further changes to 'Settings Anode_Voltage_Operate' will take effect immediately
+10:11:54.210 | 14:11:20.637|026|                         Actions upon reaching '(4)On' finished
+10:11:54.210 | 14:11:20.639|026|               Running actions while at or above '(4)On'...
+10:11:54.222 | 14:11:20.642|027|                         Actions while at or above '(4)On' finished
+10:13:52.162 | Accelerating Voltage set to 140
+10:14:32.280 | Accelerating Voltage set to 120
+10:15:19.363 | Progress:  0.0 %
+10:15:20.737 | At state "On" for 00:03:31.3671256
+10:15:20.737 | Going from state "On" to "Off"
+10:15:20.767 | Neutrons off
+10:15:20.767 | Progress:  6.3 %
+10:15:20.767 | 14:14:46.920|028|Received request for '(2)Off' from 'User'
+10:15:20.783 | 14:14:46.922|028|Queued request for '(2)Off'
+10:15:20.788 | 14:14:46.924|016|     Desired state is down to '(2)Off'
+10:15:20.795 | 14:14:46.926|016|     Starting transition to '(3)Standby'
+10:15:20.800 | 14:14:46.928|029|          Leaving state '(4)On'
+10:15:20.808 | 14:14:46.929|029|          Running transition '(4)On-->(3)Standby'
+10:15:20.814 | 14:14:46.931|029|               Transition has 8 steps
+10:15:20.815 | 14:14:46.933|029|               (Step 1)
+10:15:20.825 | 14:14:46.934|029|                    Turning off 'Faults Blinkout'
+10:15:20.825 | 14:14:46.936|029|                    [X]  Completed 1 / 8 = 12.5%
+10:15:20.838 | 14:14:46.938|029|               (Step 2)
+10:15:22.225 | Progress:  18.8 %
+10:15:22.231 | 14:14:46.940|029|                    Setting 'Getter Current_Setpoint' to 1.528
+10:15:22.236 | 14:14:46.940|029|                    Setting 'Getter Current_Setpoint' to 1.528
+10:15:22.241 | 14:14:47.878|029|                    [X]  Completed 2 / 8 = 25%
+10:15:22.250 | 14:14:47.880|029|               (Step 3)
+10:15:22.257 | 14:14:47.883|029|                    Turning off 'Anode'
+10:15:22.262 | 14:14:47.886|029|                    [X]  Completed 3 / 8 = 37.5%
+10:15:22.267 | 14:14:47.888|029|               (Step 4)
+10:15:22.274 | 14:14:47.889|029|                    Waiting for 'Anode Voltage' to be between -Infinity and 20, for up to Infinity s...
+10:15:22.279 | 14:14:47.891|029|                    Anode Voltage = 118.172610057158 ...
+10:15:22.903 | Progress:  18.8 %
+10:15:22.903 | 14:14:49.363|029|                    Anode Voltage = 97.3682456518902 ...
+10:15:23.522 | Progress:  18.8 %
+10:15:23.522 | 14:14:50.370|029|                    Anode Voltage = 46.6068699147842 ...
+10:15:23.943 | Progress:  18.8 %
+10:15:25.263 | Progress:  43.8 %
+10:15:25.263 | 14:14:51.387|029|                    Anode Voltage = 18.719152670692 [ DONE ]
+10:15:25.273 | 14:14:51.389|029|                    [X]  Completed 4 / 8 = 50%
+10:15:25.273 | 14:14:51.390|029|               (Step 5)
+10:15:25.283 | 14:14:51.392|029|                    Turning off 'RF'
+10:15:25.293 | 14:14:51.395|029|                    [X]  Completed 5 / 8 = 62.5%
+10:15:25.303 | 14:14:51.397|029|               (Step 6)
+10:15:25.303 | 14:14:51.399|029|                    Further changes to 'Settings Pulsing_Duty_Cycle' won't take effect immediately
+10:15:25.313 | 14:14:51.401|029|                    [X]  Completed 6 / 8 = 75%
+10:15:25.323 | 14:14:51.403|029|               (Step 7)
+10:15:25.323 | 14:14:51.405|029|                    Setting 'Pulsing Duty_Cycle' to 0
+10:15:26.580 | Going from state "Standby" to "Off"
+10:15:26.590 | Progress:  0.0 %
+10:15:26.590 | 14:14:51.407|029|                    [X]  Completed 7 / 8 = 87.5%
+10:15:26.604 | 14:14:51.407|029|                    [X]  Completed 7 / 8 = 87.5%
+10:15:26.610 | 14:14:51.739|029|               (Step 8)
+10:15:26.617 | 14:14:51.741|029|                    Turning off 'Suppressor'
+10:15:26.622 | 14:14:51.744|029|                    [X]  Completed 8 / 8 = 100%
+10:15:26.628 | 14:14:51.745|029|               Transition succeeded
+10:15:26.633 | 14:14:51.747|029|          At state '(3)Standby'
+10:15:26.636 | 14:14:51.749|016|     Desired state is down to '(2)Off'
+10:15:26.636 | 14:14:51.750|016|     Starting transition to '(2)Off'
+10:15:26.646 | 14:14:51.753|030|          Leaving state '(3)Standby'
+10:15:27.750 | Transition from "Standby" to "Off" took 00:00:01.1702248
+10:15:27.750 | At state "Off"
+10:15:27.761 | Progress:  100.0 %
+10:15:28.838 | 14:14:51.755|030|          Running transition '(3)Standby-->(2)Off'
+10:15:28.849 | 14:14:51.755|030|          Running transition '(3)Standby-->(2)Off'
+10:15:28.854 | 14:14:53.716|030|               Transition has 1 steps
+10:15:28.862 | 14:14:53.718|030|               (Step 1)
+10:15:28.871 | 14:14:53.719|030|                    Turning off 'Getter'
+10:15:28.871 | 14:14:53.722|030|                    [X]  Completed 1 / 1 = 100%
+10:15:28.883 | 14:14:53.723|030|               Transition succeeded
+10:15:28.885 | 14:14:53.725|030|          At state '(2)Off'
+10:15:28.897 | 14:14:53.728|016|     Waiting for a state request...
+10:15:53.359 | Progress:  0.0 %
+10:15:55.041 | At state "Off" for 00:00:27.2910491
+10:15:55.041 | Going from state "Off" to "On"
+10:15:55.051 | Progress:  12.5 %
+10:15:55.058 | 14:15:21.226|031|Received request for '(4)On' from 'User'
+10:15:55.068 | 14:15:21.228|031|Queued request for '(4)On'
+10:15:55.071 | 14:15:21.230|016|     Desired state is up to '(4)On'
+10:15:55.081 | 14:15:21.231|016|     Starting transition to '(3)Standby'
+10:15:55.081 | 14:15:21.233|032|          Leaving state '(2)Off'
+10:15:55.091 | 14:15:21.235|032|          Running transition '(2)Off-->(3)Standby'
+10:15:55.102 | 14:15:21.237|032|               Transition has 4 steps
+10:15:55.111 | 14:15:21.238|032|               (Step 1)
+10:15:55.111 | 14:15:21.240|032|                    Checking that 'Anode' is off
+10:15:55.121 | 14:15:21.242|032|                    [X]  Completed 1 / 4 = 25%
+10:15:55.131 | 14:15:21.244|032|               (Step 2)
+10:15:56.497 | Progress:  50.0 %
+10:15:56.508 | 14:15:21.245|032|                    Setting 'Getter Current_Setpoint' to 1.528
+10:15:56.519 | 14:15:21.245|032|                    Setting 'Getter Current_Setpoint' to 1.528
+10:15:56.524 | 14:15:22.178|032|                    [X]  Completed 2 / 4 = 50%
+10:15:56.529 | 14:15:22.180|032|               (Step 3)
+10:15:56.540 | 14:15:22.181|032|                    Further changes to 'Settings Getter_Current_Operate' will take effect immediately
+10:15:56.540 | 14:15:22.183|032|                    [X]  Completed 3 / 4 = 75%
+10:15:56.550 | 14:15:22.185|032|               (Step 4)
+10:15:56.562 | 14:15:22.187|032|                    Turning on 'Getter'
+10:15:56.563 | 14:15:22.189|032|                    [X]  Completed 4 / 4 = 100%
+10:15:57.833 | Going from state "Standby" to "On"
+10:15:57.843 | Progress:  0.0 %
+10:15:57.843 | 14:15:22.191|032|               Transition succeeded
+10:15:57.853 | 14:15:22.191|032|               Transition succeeded
+10:15:57.863 | 14:15:23.637|032|          At state '(3)Standby'
+10:15:57.873 | 14:15:23.638|033|               Running actions upon reaching '(3)Standby'...
+10:15:57.873 | 14:15:23.640|033|                         Actions upon reaching '(3)Standby' finished
+10:15:57.883 | 14:15:23.642|033|               Running actions while at or above '(3)Standby'...
+10:15:57.893 | 14:15:23.644|034|                         Actions while at or above '(3)Standby' finished
+10:15:57.893 | 14:15:23.645|016|     Desired state is up to '(4)On'
+10:15:57.903 | 14:15:23.648|016|     Starting transition to '(4)On'
+10:15:59.209 | Progress:  10.5 %
+10:15:59.209 | 14:15:23.649|035|          Leaving state '(3)Standby'
+10:15:59.220 | 14:15:23.649|035|          Leaving state '(3)Standby'
+10:15:59.231 | 14:15:24.962|035|          Running transition '(3)Standby-->(4)On'
+10:15:59.239 | 14:15:24.964|035|               Transition has 19 steps
+10:15:59.243 | 14:15:24.966|035|               (Step 1)
+10:15:59.252 | 14:15:24.967|035|                    Setting 'Interlock Reset' to 1
+10:15:59.261 | 14:15:24.971|035|                    [X]  Completed 1 / 19 = 5.26%
+10:15:59.264 | 14:15:24.972|035|               (Step 2)
+10:15:59.273 | 14:15:24.974|035|                    Setting 'Interlock Reset' to 0
+10:15:59.284 | 14:15:24.976|035|                    [X]  Completed 2 / 19 = 10.5%
+10:15:59.284 | 14:15:24.978|035|               (Step 3)
+10:16:00.621 | Progress:  21.1 %
+10:16:00.621 | 14:15:24.980|035|                    Forcing fault check of 'Faults Interlock'
+10:16:00.628 | 14:15:24.980|035|                    Forcing fault check of 'Faults Interlock'
+10:16:00.639 | 14:15:25.687|035|                    Interlock = 1
+10:16:00.650 | 14:15:25.689|035|                    [X]  Completed 3 / 19 = 15.8%
+10:16:00.658 | 14:15:25.691|035|               (Step 4)
+10:16:00.666 | 14:15:25.693|035|                    Turning on 'Suppressor'
+10:16:00.673 | 14:15:25.695|035|                    [X]  Completed 4 / 19 = 21.1%
+10:16:00.677 | 14:15:25.697|035|               (Step 5)
+10:16:00.687 | 14:15:25.699|035|                    Waiting for 'Suppressor Voltage' to be between 100 and Infinity, for up to 60 s...
+10:16:02.087 | Progress:  36.8 %
+10:16:02.087 | 14:15:25.701|035|                    Suppressor Voltage = 0 ...
+10:16:02.107 | 14:15:25.701|035|                    Suppressor Voltage = 0 ...
+10:16:02.107 | 14:15:28.074|035|                    Suppressor Voltage = 404.360497704871 [ DONE ]
+10:16:02.117 | 14:15:28.076|035|                    [X]  Completed 5 / 19 = 26.3%
+10:16:02.127 | 14:15:28.078|035|               (Step 6)
+10:16:02.127 | 14:15:28.079|035|                    Setting 'Pulsing Rep_Rate' to 200
+10:16:02.137 | 14:15:28.082|035|                    [X]  Completed 6 / 19 = 31.6%
+10:16:02.147 | 14:15:28.083|035|               (Step 7)
+10:16:02.157 | 14:15:28.085|035|                    Setting 'Pulsing Duty_Cycle' to 1
+10:16:02.167 | 14:15:28.087|035|                    [X]  Completed 7 / 19 = 36.8%
+10:16:03.537 | Progress:  52.6 %
+10:16:03.541 | 14:15:28.089|035|               (Step 8)
+10:16:03.553 | 14:15:28.089|035|               (Step 8)
+10:16:03.563 | 14:15:28.512|035|                    Further changes to 'Settings Pulsing_Duty_Cycle' will take effect immediately
+10:16:03.563 | 14:15:28.514|035|                    [X]  Completed 8 / 19 = 42.1%
+10:16:03.573 | 14:15:28.516|035|               (Step 9)
+10:16:03.583 | 14:15:28.517|035|                    Turning on 'RF'
+10:16:03.583 | 14:15:28.520|035|                    [X]  Completed 9 / 19 = 47.4%
+10:16:03.593 | 14:15:28.522|035|               (Step 10)
+10:16:03.603 | 14:15:28.523|035|                    Further changes to 'Settings Anode_Voltage_Operate' won't take effect immediately
+10:16:03.613 | 14:15:28.525|035|                    [X]  Completed 10 / 19 = 52.6%
+10:16:04.965 | Progress:  63.2 %
+10:16:04.975 | 14:15:28.528|035|               (Step 11)
+10:16:04.975 | 14:15:28.528|035|               (Step 11)
+10:16:04.985 | 14:15:30.019|035|                    Setting 'Anode Voltage_Setpoint' to 50
+10:16:04.998 | 14:15:30.022|035|                    [X]  Completed 11 / 19 = 57.9%
+10:16:05.004 | 14:15:30.024|035|               (Step 12)
+10:16:05.013 | 14:15:30.026|035|                    Turning on 'Anode'
+10:16:05.018 | 14:15:30.029|035|                    [X]  Completed 12 / 19 = 63.2%
+10:16:05.028 | 14:15:30.031|035|               (Step 13)
+10:16:05.038 | 14:15:30.033|035|                    Waiting for 'Anode Voltage' to be between 20 and Infinity, for up to 60 s...
+10:16:05.039 | 14:15:30.036|035|                    Anode Voltage = 1.03464704387328 ...
+10:16:06.315 | Progress:  78.9 %
+10:16:06.315 | 14:15:31.048|035|                    Anode Voltage = 11.4129527762637 ...
+10:16:06.325 | 14:15:31.048|035|                    Anode Voltage = 11.4129527762637 ...
+10:16:06.332 | 14:15:32.499|035|                    Anode Voltage = 25.6274113943998 [ DONE ]
+10:16:06.344 | 14:15:32.501|035|                    [X]  Completed 13 / 19 = 68.4%
+10:16:06.351 | 14:15:32.503|035|               (Step 14)
+10:16:06.358 | 14:15:32.505|035|                    Further changes to 'Settings Getter_Current_Operate' won't take effect immediately
+10:16:06.358 | 14:15:32.507|035|                    [X]  Completed 14 / 19 = 73.7%
+10:16:06.372 | 14:15:32.509|035|               (Step 15)
+10:16:06.382 | 14:15:32.510|035|                    Setting 'Getter Current_Setpoint' to 2.8
+10:16:07.453 | Progress:  78.9 %
+10:16:07.453 | 14:15:32.513|035|                    [X]  Completed 15 / 19 = 78.9%
+10:16:07.463 | 14:15:32.513|035|                    [X]  Completed 15 / 19 = 78.9%
+10:16:07.471 | 14:15:32.819|035|               (Step 16)
+10:16:07.481 | 14:15:32.821|035|                    Waiting for 'Anode Current' to be between 0.1 and Infinity, for up to 60 s...
+10:16:07.487 | 14:15:32.823|035|                    Anode Current = 0.044136713093446 ...
+10:16:07.494 | 14:15:33.840|035|                    Anode Current = 0.0473110778907912 ...
+10:16:08.121 | Progress:  78.9 %
+10:16:08.121 | 14:15:34.844|035|                    Anode Current = 0.0457238954921186 ...
+10:16:08.690 | Progress:  78.9 %
+10:16:08.690 | 14:15:35.846|035|                    Anode Current = 0.0446327075930312 ...
+10:16:09.140 | Progress:  78.9 %
+10:16:09.680 | Progress:  78.9 %
+10:16:09.680 | 14:15:36.861|035|                    Anode Current = 0.0456246965922016 ...
+10:16:10.130 | Progress:  78.9 %
+10:16:10.670 | Progress:  78.9 %
+10:16:10.680 | 14:15:37.880|035|                    Anode Current = 0.0458230943920356 ...
+10:16:11.133 | Progress:  78.9 %
+10:16:11.744 | Progress:  78.9 %
+10:16:11.744 | 14:15:38.893|035|                    Anode Current = 0.0459222932919527 ...
+10:16:12.230 | Progress:  78.9 %
+10:16:12.780 | Progress:  78.9 %
+10:16:12.790 | 14:15:39.913|035|                    Anode Current = 0.0477078734904594 ...
+10:16:13.220 | Progress:  78.9 %
+10:16:13.860 | Progress:  78.9 %
+10:16:13.870 | 14:15:40.917|035|                    Anode Current = 0.0466166855913719 ...
+10:16:14.330 | Progress:  78.9 %
+10:16:14.871 | Progress:  78.9 %
+10:16:14.881 | 14:15:41.929|035|                    Anode Current = 0.0434423207940267 ...
+10:16:15.321 | Progress:  78.9 %
+10:16:15.854 | Progress:  78.9 %
+10:16:15.864 | 14:15:42.949|035|                    Anode Current = 0.0469142822911231 ...
+10:16:16.324 | Progress:  78.9 %
+10:16:17.635 | Progress:  94.7 %
+10:16:17.635 | 14:15:43.953|035|                    Anode Current = 0.205830919958218 [ DONE ]
+10:16:17.649 | 14:15:43.955|035|                    [X]  Completed 16 / 19 = 84.2%
+10:16:17.659 | 14:15:43.956|035|               (Step 17)
+10:16:17.668 | 14:15:43.958|035|                    Setting 'Getter Current_Setpoint' to 1.528
+10:16:17.675 | 14:15:43.962|035|                    [X]  Completed 17 / 19 = 89.5%
+10:16:17.683 | 14:15:43.964|035|               (Step 18)
+10:16:17.689 | 14:15:43.966|035|                    Further changes to 'Settings Getter_Current_Operate' will take effect immediately
+10:16:17.697 | 14:15:43.968|035|                    [X]  Completed 18 / 19 = 94.7%
+10:16:17.704 | 14:15:43.970|035|               (Step 19)
+10:16:18.774 | Transition from "Standby" to "On" took 00:00:20.9405689
+10:16:18.784 | At state "On"
+10:16:18.794 | Progress:  100.0 %
+10:16:19.870 | Neutrons on
+10:16:19.891 | 14:15:43.971|035|                    Turning on 'Faults Blinkout'
+10:16:19.896 | 14:15:43.971|035|                    Turning on 'Faults Blinkout'
+10:16:19.907 | 14:15:44.169|035|                    [X]  Completed 19 / 19 = 100%
+10:16:19.918 | 14:15:44.171|035|               Transition succeeded
+10:16:19.924 | 14:15:44.172|035|          At state '(4)On'
+10:16:19.934 | 14:15:44.174|039|               Running actions upon reaching '(4)On'...
+10:16:19.945 | 14:15:44.176|039|                         Waiting for 3.000 seconds...
+10:16:19.955 | 14:15:44.179|016|     Waiting for a state request...
+10:16:20.834 | 14:15:47.180|039|                         [ DONE ]
+10:16:20.834 | 14:15:47.182|039|                         Ramping 'Anode Voltage_Setpoint' from 50 to 120, incrementing 15 every 1 second...
+10:16:20.844 | 14:15:47.184|039|                         Setting 'Anode Voltage_Setpoint' to 65
+10:16:21.344 | 14:15:48.187|039|                         Setting 'Anode Voltage_Setpoint' to 80
+10:16:22.304 | 14:15:49.205|039|                         Setting 'Anode Voltage_Setpoint' to 95
+10:16:23.844 | 14:15:50.223|039|                         'Anode Voltage_Setpoint' is at 120
+10:16:23.844 | 14:15:50.225|039|                         Further changes to 'Settings Anode_Voltage_Operate' will take effect immediately
+10:16:23.864 | 14:15:50.227|039|                         Actions upon reaching '(4)On' finished
+10:16:23.875 | 14:15:50.229|039|               Running actions while at or above '(4)On'...
+10:16:23.885 | 14:15:50.231|040|                         Actions while at or above '(4)On' finished
+10:17:11.043 | Progress:  0.0 %
+10:17:12.573 | At state "On" for 00:00:53.7991307
+10:17:12.583 | Going from state "On" to "Off"
+10:17:12.603 | Neutrons off
+10:17:12.608 | Progress:  6.3 %
+10:17:12.608 | 14:16:38.779|041|Received request for '(2)Off' from 'User'
+10:17:12.618 | 14:16:38.780|041|Queued request for '(2)Off'
+10:17:12.628 | 14:16:38.782|016|     Desired state is down to '(2)Off'
+10:17:12.638 | 14:16:38.784|016|     Starting transition to '(3)Standby'
+10:17:12.654 | 14:16:38.786|042|          Leaving state '(4)On'
+10:17:12.658 | 14:16:38.788|042|          Running transition '(4)On-->(3)Standby'
+10:17:12.668 | 14:16:38.789|042|               Transition has 8 steps
+10:17:12.688 | 14:16:38.791|042|               (Step 1)
+10:17:12.699 | 14:16:38.793|042|                    Turning off 'Faults Blinkout'
+10:17:12.708 | 14:16:38.795|042|                    [X]  Completed 1 / 8 = 12.5%
+10:17:12.718 | 14:16:38.796|042|               (Step 2)
+10:17:14.155 | Progress:  18.8 %
+10:17:14.166 | 14:16:38.798|042|                    Setting 'Getter Current_Setpoint' to 1.528
+10:17:14.176 | 14:16:38.798|042|                    Setting 'Getter Current_Setpoint' to 1.528
+10:17:14.187 | 14:16:39.737|042|                    [X]  Completed 2 / 8 = 25%
+10:17:14.192 | 14:16:39.739|042|               (Step 3)
+10:17:14.198 | 14:16:39.741|042|                    Turning off 'Anode'
+10:17:14.213 | 14:16:39.745|042|                    [X]  Completed 3 / 8 = 37.5%
+10:17:14.219 | 14:16:39.746|042|               (Step 4)
+10:17:14.230 | 14:16:39.748|042|                    Waiting for 'Anode Voltage' to be between -Infinity and 20, for up to Infinity s...
+10:17:14.241 | 14:16:39.750|042|                    Anode Voltage = 121.212880601462 ...
+10:17:14.795 | Progress:  18.8 %
+10:17:14.798 | 14:16:41.225|042|                    Anode Voltage = 100.058327965961 ...
+10:17:15.523 | Progress:  18.8 %
+10:17:15.523 | 14:16:42.235|042|                    Anode Voltage = 39.5871876632746 ...
+10:17:16.792 | Progress:  43.8 %
+10:17:16.792 | 14:16:43.253|042|                    Anode Voltage = 14.9466703722617 [ DONE ]
+10:17:16.808 | 14:16:43.255|042|                    [X]  Completed 4 / 8 = 50%
+10:17:16.813 | 14:16:43.257|042|               (Step 5)
+10:17:16.823 | 14:16:43.259|042|                    Turning off 'RF'
+10:17:16.839 | 14:16:43.262|042|                    [X]  Completed 5 / 8 = 62.5%
+10:17:16.859 | 14:16:43.264|042|               (Step 6)
+10:17:16.859 | 14:16:43.266|042|                    Further changes to 'Settings Pulsing_Duty_Cycle' won't take effect immediately
+10:17:16.869 | 14:16:43.268|042|                    [X]  Completed 6 / 8 = 75%
+10:17:16.879 | 14:16:43.270|042|               (Step 7)
+10:17:16.889 | 14:16:43.271|042|                    Setting 'Pulsing Duty_Cycle' to 0
+10:17:17.979 | Going from state "Standby" to "Off"
+10:17:17.989 | Progress:  0.0 %
+10:17:17.999 | 14:16:43.274|042|                    [X]  Completed 7 / 8 = 87.5%
+10:17:18.009 | 14:16:43.274|042|                    [X]  Completed 7 / 8 = 87.5%
+10:17:18.019 | 14:16:43.333|042|               (Step 8)
+10:17:18.029 | 14:16:43.335|042|                    Turning off 'Suppressor'
+10:17:18.039 | 14:16:43.338|042|                    [X]  Completed 8 / 8 = 100%
+10:17:18.039 | 14:16:43.339|042|               Transition succeeded
+10:17:18.059 | 14:16:43.341|042|          At state '(3)Standby'
+10:17:18.069 | 14:16:43.344|016|     Desired state is down to '(2)Off'
+10:17:18.080 | 14:16:43.345|016|     Starting transition to '(2)Off'
+10:17:18.091 | 14:16:43.347|043|          Leaving state '(3)Standby'
+10:17:19.093 | Transition from "Standby" to "Off" took 00:00:01.1139503
+10:17:19.093 | At state "Off"
+10:17:19.109 | Progress:  100.0 %
+10:17:20.196 | 14:16:43.349|043|          Running transition '(3)Standby-->(2)Off'
+10:17:20.203 | 14:16:43.349|043|          Running transition '(3)Standby-->(2)Off'
+10:17:20.213 | 14:16:45.312|043|               Transition has 1 steps
+10:17:20.223 | 14:16:45.314|043|               (Step 1)
+10:17:20.234 | 14:16:45.315|043|                    Turning off 'Getter'
+10:17:20.245 | 14:16:45.318|043|                    [X]  Completed 1 / 1 = 100%
+10:17:20.255 | 14:16:45.320|043|               Transition succeeded
+10:17:20.266 | 14:16:45.322|043|          At state '(2)Off'
+10:17:20.271 | 14:16:45.324|016|     Waiting for a state request...
