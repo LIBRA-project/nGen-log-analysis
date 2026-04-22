@@ -1,0 +1,107 @@
+nGen Controller version 1.1.5.20
+14:16:08.410 | Thursday, April 9, 2026
+14:16:08.411 | At state "Disconnected"
+14:16:08.479 | At state "Disconnected" for 00:00:00.0688700
+14:16:08.486 | Going from state "Disconnected" to "Off"
+14:16:08.499 | Progress:  0.0 %
+14:16:08.506 | Attempting to connect to neutron generator...
+14:16:08.515 | Progress:  0.0 %
+14:16:08.526 | Progress:  12.5 %
+14:16:08.532 | Trying COM7 ...
+14:16:09.732 | COM7 opened, received "utron
+14:16:09.736 | Neutron_Scale
+14:16:09.744 | Program
+14:16:09.748 | Pulsed
+14:16:09.753 | Query
+14:16:09.758 | Reboot
+14:16:09.762 | Reset
+14:16:09.772 | Restart
+14:16:09.778 | Settings
+14:16:09.781 | State
+14:16:09.789 | State_Machine_Settings
+14:16:09.794 | States
+14:16:09.798 | Time
+14:16:09.805 | Unlock
+14:16:09.810 | Uptime
+14:16:09.813 | Watchdog
+14:16:09.817 | nGen
+14:16:09.824 | "
+14:16:09.837 | Progress:  15.6 %
+14:16:09.958 | Trying COM4 ...
+14:16:12.108 | COM4 opened, received ""
+14:16:12.142 | Progress:  18.8 %
+14:16:12.199 | Trying COM6 ...
+14:16:16.449 | COM6 opened, received ""
+14:16:16.462 | Progress:  21.9 %
+14:16:16.470 | Trying COM5 ...
+14:16:22.684 | COM5 opened, received ""
+14:16:22.697 | Progress:  25.0 %
+14:16:23.891 | Progress:  0.0 %
+14:16:23.922 | Progress:  25.0 %
+14:16:23.929 | Connected to nGen-400 on COM7
+14:16:24.011 | Build = "2025.09.12_16.05"
+14:16:24.385 | Thursday, April 9, 2026
+14:16:24.386 | Microcontroller E01S
+14:16:24.396 | Serial #42202
+14:16:24.401 | On time 101.8
+14:16:24.493 | Checking for bundled configuration:
+14:16:24.510 | 	Progress:  37.5 %
+14:16:24.520 | 	Bundled configuration not found
+14:16:25.271 | 	Progress:  50.0 %
+14:16:25.285 | Checking for user settings:
+14:16:25.313 | 	Progress:  62.5 %
+14:16:25.323 | 	No modified settings.
+14:16:25.338 | Setting up user controls:
+14:16:25.503 | 	Checking for Neutron_Count_Rate ... [ NOT present ]
+14:16:25.512 | 	Checking for Getter_Current ... [ PRESENT ]
+14:16:25.519 | 		Range: 1.5 to 1.6
+14:16:25.523 | 		Intial value = 1.528
+14:16:25.561 | 	Checking for Pulsing ... [ PRESENT ]
+14:16:25.631 | 	Checking for RF_Frequency ... [ PRESENT ]
+14:16:25.645 | 		Range: 16.2 to 16.3
+14:16:25.706 | 		Intial value = 16.28
+14:16:25.758 | 	Checking for Anode_Voltage ... [ PRESENT ]
+14:16:25.773 | 		Range: 120 to 160
+14:16:25.779 | 		Intial value = 120
+14:16:26.378 | Progress:  75.0 %
+14:16:29.232 | Progress:  87.5 %
+14:16:29.353 | Transition from "Disconnected" to "Off" took 00:00:20.8747020
+14:16:29.366 | At state "Off"
+14:16:29.383 | Progress:  100.0 %
+14:40:43.811 | Warning:  No response from generator to Query
+14:40:45.341 | Warning:  No response from generator to Query
+14:40:45.358 | Warning:  No response from generator to Query
+14:40:45.375 | Warning:  No response from generator to Query
+14:40:45.390 | Warning:  No response from generator to Query
+14:40:45.393 | Warning:  No response from generator to Query
+14:40:45.396 | Warning:  No response from generator to Query
+14:40:45.403 | Warning:  No response from generator to Query
+14:40:45.426 | Warning:  No response from generator to Query
+14:40:45.443 | Warning:  No response from generator to Query
+14:40:45.464 | Warning:  No response from generator to Query
+14:40:45.484 | Warning:  No response from generator to Query
+14:40:45.515 | Warning:  No response from generator to Query
+14:40:45.558 | Warning:  No response from generator to Query
+14:40:45.593 | Warning:  No response from generator to Query
+14:40:45.624 | Warning:  No response from generator to Query
+14:40:45.632 | Warning:  No response from generator to Query
+14:40:45.651 | Warning:  No response from generator to Query
+14:40:45.683 | Warning:  No response from generator to Query
+14:40:45.723 | Warning:  No response from generator to Query
+14:40:45.730 | Warning:  No response from generator to Query
+14:40:45.763 | At state "Disconnected"
+14:40:45.831 | At state "Disconnected" for 00:00:00.0678262
+14:40:45.877 | Going from state "Disconnected" to "Off"
+14:40:45.939 | Progress:  0.0 %
+14:40:45.980 | Attempting to connect to neutron generator...
+14:40:46.033 | Progress:  0.0 %
+14:40:46.094 | Progress:  12.5 %
+14:40:46.103 | Trying COM4 ...
+14:40:48.261 | COM4 opened, received ""
+14:40:48.282 | Progress:  16.7 %
+14:40:48.334 | Trying COM6 ...
+14:40:52.562 | COM6 opened, received ""
+14:40:52.784 | Progress:  20.8 %
+14:40:52.795 | Trying COM5 ...
+14:40:59.031 | COM5 opened, received ""
+14:40:59.058 | Progress:  25.0 %

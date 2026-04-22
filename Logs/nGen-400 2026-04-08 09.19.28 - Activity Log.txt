@@ -1,0 +1,52 @@
+nGen Controller version 1.1.5.20
+09:19:13.708 | Wednesday, April 8, 2026
+09:19:13.709 | At state "Disconnected"
+09:19:13.809 | At state "Disconnected" for 00:00:00.0988907
+09:19:13.819 | Going from state "Disconnected" to "Off"
+09:19:13.848 | Progress:  0.0 %
+09:19:13.854 | Attempting to connect to neutron generator...
+09:19:13.867 | Progress:  0.0 %
+09:19:13.887 | Progress:  12.5 %
+09:19:13.896 | Trying COM4 ...
+09:19:16.063 | COM4 opened, received ""
+09:19:16.079 | Progress:  15.6 %
+09:19:16.136 | Trying COM6 ...
+09:19:20.385 | COM6 opened, received ""
+09:19:20.423 | Progress:  18.8 %
+09:19:20.438 | Trying COM5 ...
+09:19:26.648 | COM5 opened, received ""
+09:19:26.670 | Progress:  21.9 %
+09:19:26.686 | Trying COM7 ...
+09:19:27.857 | COM7 opened, received "nGen-400"
+09:19:27.878 | Progress:  25.0 %
+09:19:27.907 | Progress:  25.0 %
+09:19:27.921 | Connected to nGen-400 on COM7
+09:19:27.999 | Build = "2025.09.12_16.05"
+09:19:28.384 | Wednesday, April 8, 2026
+09:19:28.385 | Microcontroller E01S
+09:19:28.402 | Serial #42202
+09:19:28.418 | On time 101.7
+09:19:28.497 | Checking for bundled configuration:
+09:19:28.526 | 	Progress:  37.5 %
+09:19:28.541 | 	Bundled configuration not found
+09:19:29.268 | 	Progress:  50.0 %
+09:19:29.286 | Checking for user settings:
+09:19:29.320 | 	Progress:  62.5 %
+09:19:29.334 | 	No user settings found, initializing from firmware
+09:19:29.356 | Setting up user controls:
+09:19:29.507 | 	Checking for Neutron_Count_Rate ... [ NOT present ]
+09:19:29.519 | 	Checking for Getter_Current ... [ PRESENT ]
+09:19:29.552 | 		Range: 1.5 to 1.6
+09:19:29.556 | 		Intial value = 1.528
+09:19:29.607 | 	Checking for Pulsing ... [ PRESENT ]
+09:19:29.673 | 	Checking for RF_Frequency ... [ PRESENT ]
+09:19:29.687 | 		Range: 16.2 to 16.3
+09:19:29.691 | 		Intial value = 16.28
+09:19:29.728 | 	Checking for Anode_Voltage ... [ PRESENT ]
+09:19:29.739 | 		Range: 120 to 160
+09:19:29.745 | 		Intial value = 120
+09:19:30.264 | Progress:  75.0 %
+09:19:32.017 | Progress:  87.5 %
+09:19:32.037 | Transition from "Disconnected" to "Off" took 00:00:18.2294718
+09:19:32.046 | At state "Off"
+09:19:32.088 | Progress:  100.0 %
