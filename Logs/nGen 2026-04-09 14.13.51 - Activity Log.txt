@@ -1,0 +1,18 @@
+nGen Controller version 1.1.5.20
+14:13:53.189 | Thursday, April 9, 2026
+14:13:53.190 | At state "Disconnected"
+14:13:53.286 | At state "Disconnected" for 00:00:00.0959595
+14:13:53.289 | Going from state "Disconnected" to "Off"
+14:13:53.303 | Progress:  0.0 %
+14:13:53.310 | Attempting to connect to neutron generator...
+14:13:53.318 | Progress:  0.0 %
+14:13:53.328 | Progress:  12.5 %
+14:13:53.334 | Trying COM4 ...
+14:13:55.488 | COM4 opened, received ""
+14:13:55.507 | Progress:  16.7 %
+14:13:55.565 | Trying COM6 ...
+14:13:59.822 | COM6 opened, received ""
+14:13:59.849 | Progress:  20.8 %
+14:13:59.863 | Trying COM5 ...
+14:14:06.098 | COM5 opened, received ""
+14:14:06.119 | Progress:  25.0 %
