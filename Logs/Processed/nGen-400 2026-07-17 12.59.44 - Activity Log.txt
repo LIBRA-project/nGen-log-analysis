@@ -1,0 +1,52 @@
+Microcontroller E01S
+12:59:44.827 | Friday, July 17, 2026
+12:59:44.828 | Serial #42202
+12:59:44.838 | On time 166.6
+12:59:44.928 | Checking for bundled configuration:
+12:59:44.938 | 	Progress:  37.5 %
+12:59:44.938 | 	Bundled configuration not found
+12:59:45.700 | 	Progress:  50.0 %
+12:59:45.700 | Checking for user settings:
+12:59:45.710 | 	Progress:  62.5 %
+12:59:45.720 | 	[!] Settings Getter_Current_Operate = 1.528 (was 1.73)
+12:59:45.720 | 	[!] Settings Getter_Current_Strike = 2.8 (was 1.74)
+12:59:45.720 | 	[!] Settings RF_Frequency_Operate = 16.28 (was 15.05)
+12:59:45.810 | Progress:  66.7 %
+12:59:45.940 | Progress:  70.8 %
+12:59:46.070 | Progress:  75.0 %
+12:59:46.080 | Progress:  75.0 %
+12:59:46.080 | Setting up user controls:
+12:59:46.180 | 	Checking for Neutron_Count_Rate ... [ NOT present ]
+12:59:46.190 | 	Checking for Getter_Current ... [ PRESENT ]
+12:59:46.190 | 		Range: 1.73 to 1.74
+12:59:46.190 | 		Intial value = 1.528
+12:59:46.232 | 	Checking for Pulsing ... [ PRESENT ]
+12:59:46.242 | 	Checking for RF_Frequency ... [ PRESENT ]
+12:59:46.242 | 		Range: 14.95 to 15.05
+12:59:46.252 | 		Intial value = 16.28
+12:59:46.252 | 	Checking for Anode_Voltage ... [ PRESENT ]
+12:59:46.252 | 		Range: 120 to 130
+12:59:46.252 | 		Intial value = 120
+12:59:46.599 | Command "Watchdog 10" failed.  Response was "Watchdog already running"
+12:59:46.601 | Transition from "Disconnected" to "Off" took 00:00:03.4067182
+12:59:46.603 | At state "Disconnected"
+12:59:46.605 | Progress:  100.0 %
+12:59:47.821 | At state "Disconnected" for 00:00:01.2200536
+12:59:47.825 | Going from state "Disconnected" to "Off"
+12:59:47.829 | Progress:  0.0 %
+12:59:47.832 | Attempting to connect to neutron generator...
+12:59:47.837 | Progress:  0.0 %
+12:59:47.845 | Progress:  12.5 %
+12:59:47.847 | Trying COM4 ...
+12:59:48.894 | COM4 opened, received ""
+12:59:48.894 | Progress:  16.7 %
+12:59:48.894 | Trying COM6 ...
+12:59:53.119 | COM6 opened, received ""
+12:59:53.119 | Progress:  20.8 %
+12:59:53.129 | Trying COM5 ...
+12:59:59.272 | COM5 opened, received ""
+12:59:59.272 | Progress:  25.0 %
+13:00:22.626 | Progress:  0.0 %
+13:00:22.635 | Progress:  25.0 %
+13:00:22.645 | Connected to nGen-400 on COM4
+13:00:22.746 | Build = "2025.09.12_16.05"

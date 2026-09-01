@@ -1,0 +1,49 @@
+nGen Controller version 1.1.5.20
+12:56:04.325 | Friday, July 17, 2026
+12:56:04.326 | At state "Disconnected"
+12:56:04.436 | At state "Disconnected" for 00:00:00.1099534
+12:56:04.436 | Going from state "Disconnected" to "Off"
+12:56:04.446 | Progress:  0.0 %
+12:56:04.446 | Attempting to connect to neutron generator...
+12:56:04.456 | Progress:  0.0 %
+12:56:04.456 | Progress:  12.5 %
+12:56:04.466 | Trying COM6 ...
+12:56:08.700 | COM6 opened, received ""
+12:56:08.700 | Progress:  18.8 %
+12:56:08.700 | Trying COM5 ...
+12:56:14.848 | COM5 opened, received ""
+12:56:18.128 | Progress:  25.0 %
+12:59:27.294 | Progress:  0.0 %
+12:59:27.304 | Progress:  25.0 %
+12:59:27.304 | Connected to nGen-400 on COM4
+12:59:27.424 | Build = "2025.09.12_16.05"
+12:59:27.818 | Friday, July 17, 2026
+12:59:27.819 | Microcontroller E01S
+12:59:27.819 | Serial #42202
+12:59:27.829 | On time 166.6
+12:59:27.899 | Checking for bundled configuration:
+12:59:27.929 | 	Progress:  37.5 %
+12:59:27.929 | 	Bundled configuration not found
+12:59:28.675 | 	Progress:  50.0 %
+12:59:28.675 | Checking for user settings:
+12:59:28.722 | 	Progress:  62.5 %
+12:59:28.732 | 	[!] Settings Getter_Current_Operate = 1.528 (was 1.732)
+12:59:28.732 | 	[!] Settings Getter_Current_Strike = 2.8 (was 3)
+12:59:28.732 | 	[!] Settings RF_Frequency_Operate = 16.28 (was 15)
+12:59:28.902 | Progress:  66.7 %
+12:59:29.022 | Progress:  70.8 %
+12:59:29.142 | Progress:  75.0 %
+12:59:29.142 | Progress:  75.0 %
+12:59:29.152 | Setting up user controls:
+12:59:29.284 | 	Checking for Neutron_Count_Rate ... [ NOT present ]
+12:59:29.294 | 	Checking for Getter_Current ... [ PRESENT ]
+12:59:29.294 | 		Range: 1.73 to 1.74
+12:59:29.294 | 		Intial value = 1.528
+12:59:29.324 | 	Checking for Pulsing ... [ PRESENT ]
+12:59:29.344 | 	Checking for RF_Frequency ... [ PRESENT ]
+12:59:29.344 | 		Range: 14.95 to 15.05
+12:59:29.354 | 		Intial value = 16.28
+12:59:29.364 | 	Checking for Anode_Voltage ... [ PRESENT ]
+12:59:29.364 | 		Range: 120 to 130
+12:59:29.374 | 		Intial value = 120
+12:59:29.925 | Progress:  87.5 %
