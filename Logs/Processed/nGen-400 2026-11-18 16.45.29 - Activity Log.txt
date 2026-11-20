@@ -1,0 +1,328 @@
+nGen Controller version 1.1.5.20
+16:45:27.907 | mercoledì 18 novembre 2026
+16:45:27.908 | At state "Disconnected"
+16:45:27.920 | At state "Disconnected" for 00:00:00.0123751
+16:45:27.936 | Going from state "Disconnected" to "Off"
+16:45:27.936 | Progress:  0,0 %
+16:45:27.936 | Attempting to connect to neutron generator...
+16:45:27.936 | Progress:  0,0 %
+16:45:27.936 | Progress:  12,5 %
+16:45:27.936 | Trying COM5 ...
+16:45:29.044 | COM5 opened, received "nGen-400"
+16:45:29.044 | Progress:  25,0 %
+16:45:29.057 | Progress:  25,0 %
+16:45:29.062 | Connected to nGen-400 on COM5
+16:45:29.103 | Build = "2026.10.02_13.53"
+16:45:29.245 | mercoledì 18 novembre 2026
+16:45:29.246 | Microcontroller E01S
+16:45:29.246 | Serial #42202
+16:45:29.246 | On time 207.6
+16:45:29.271 | Checking for bundled configuration:
+16:45:29.278 | 	Progress:  37,5 %
+16:45:29.278 | 	Bundled configuration not found
+16:45:29.983 | 	Progress:  50,0 %
+16:45:29.999 | Checking for user settings:
+16:45:29.999 | 	Progress:  62,5 %
+16:45:29.999 | 	No modified settings.
+16:45:29.999 | Setting up user controls:
+16:45:30.047 | 	Checking for Neutron_Count_Rate ... [ NOT present ]
+16:45:30.047 | 	Checking for Getter_Current ... [ PRESENT ]
+16:45:30.047 | 		Range: 14 to 15
+16:45:30.047 | 		Intial value = 1453
+16:45:30.047 | 	Checking for Pulsing ... [ PRESENT ]
+16:45:30.063 | 	Checking for RF_Frequency ... [ PRESENT ]
+16:45:30.063 | 		Range: 149 to 151
+16:45:30.063 | 		Intial value = 1498
+16:45:30.072 | 	Checking for Anode_Voltage ... [ PRESENT ]
+16:45:30.079 | 		Range: 120 to 160
+16:45:30.079 | 		Intial value = 120
+16:45:30.317 | Progress:  75,0 %
+16:45:31.848 | Progress:  87,5 %
+16:45:31.900 | Transition from "Disconnected" to "Off" took 00:00:03.9798212
+16:45:31.900 | At state "Off"
+16:45:31.900 | Progress:  100,0 %
+16:46:09.252 | Progress:  0,0 %
+16:46:10.485 | At state "Off" for 00:00:38.5855458
+16:46:10.487 | Going from state "Off" to "On"
+16:46:10.489 | Neutrons on
+16:46:10.492 | Progress:  100,0 %
+13:06:48.567 | 011|00:00:51.147|Received request for '(4)On' from 'User'
+13:06:48.567 | 011|00:00:51.149|Queued request for '(4)On'
+13:06:46.567 |      009|00:00:51.151|Desired state is up to '(4)On'
+13:06:46.567 |      009|00:00:51.154|Starting transition to '(3)Standby'
+13:06:49.567 |           012|00:00:51.156|Leaving state '(2)Off'
+13:06:49.567 |           012|00:00:51.159|Running transition '(2)Off-->(3)Standby'
+13:06:49.567 |                012|00:00:51.161|Transition has 14 steps
+13:06:49.567 |                012|00:00:51.163|(Step 1)
+13:06:49.567 |                     012|00:00:51.165|Clearing retry stike flag
+13:06:49.567 |                     012|00:00:51.168|[X]  Completed 1 / 14 = 7.14%
+13:06:49.567 |                012|00:00:51.170|(Step 2)
+16:46:11.889 | Progress:  100,0 %
+13:06:49.567 | 012|00:00:51.172|Checking that 'Anode' is off
+13:06:49.567 |                     012|00:00:51.420|[X]  Completed 2 / 14 = 14.3%
+13:06:49.567 |                012|00:00:51.422|(Step 3)
+13:06:49.567 |                     012|00:00:51.424|Setting 'Pulsing Rep_Rate' to 200
+13:06:49.567 |                     012|00:00:51.427|[X]  Completed 3 / 14 = 21.4%
+13:06:49.567 |                012|00:00:51.429|(Step 4)
+13:06:49.567 |                     012|00:00:51.432|Setting 'Pulsing Duty_Cycle' to 1
+13:06:49.567 |                     012|00:00:51.436|[X]  Completed 4 / 14 = 28.6%
+13:06:49.567 |                012|00:00:51.438|(Step 5)
+13:06:49.567 |                     012|00:00:51.440|Further changes to 'Settings Pulsing_Duty_Cycle' will take effect immediately
+16:46:13.294 | Progress:  100,0 %
+13:06:49.567 | 012|00:00:51.443|[X]  Completed 5 / 14 = 35.7%
+13:06:49.567 |                012|00:00:52.747|(Step 6)
+13:06:49.567 |                     012|00:00:52.750|Turning on 'RF'
+13:06:49.567 |                     012|00:00:52.753|[X]  Completed 6 / 14 = 42.9%
+13:06:49.567 |                012|00:00:52.755|(Step 7)
+13:06:49.567 |                     012|00:00:52.758|Further changes to 'Settings Getter_Current_Operate' won't take effect immediately
+13:06:49.567 |                     012|00:00:52.760|[X]  Completed 7 / 14 = 50%
+13:06:49.567 |                012|00:00:52.763|(Step 8)
+13:06:49.567 |                     012|00:00:52.765|Setting 'Getter Current_Setpoint' to 3
+13:06:49.567 |                     012|00:00:52.774|[X]  Completed 8 / 14 = 57.1%
+16:46:14.563 | Progress:  100,0 %
+13:06:49.567 | 012|00:00:52.778|(Step 9)
+13:06:49.567 |                     012|00:00:54.152|Turning on 'Getter'
+13:06:49.567 |                     012|00:00:54.155|[X]  Completed 9 / 14 = 64.3%
+13:06:49.567 |                012|00:00:54.158|(Step 10)
+13:06:49.567 |                     012|00:00:54.160|Time since last strike = 218795040.902662 minutes
+13:06:49.567 |                     012|00:00:54.162|Using cold strike parameters
+13:06:49.567 |                     012|00:00:54.165|[X]  Completed 10 / 14 = 71.4%
+13:06:49.567 |                012|00:00:54.167|(Step 11)
+13:06:49.567 |                     012|00:00:54.169|Waiting for 30.000 seconds...
+16:46:15.203 | Progress:  100,0 %
+16:46:15.846 | Progress:  100,0 %
+16:46:16.468 | Progress:  100,0 %
+16:46:17.131 | Progress:  100,0 %
+16:46:17.749 | Progress:  100,0 %
+16:46:18.400 | Progress:  100,0 %
+16:46:19.014 | Progress:  100,0 %
+16:46:19.622 | Progress:  100,0 %
+16:46:20.243 | Progress:  100,0 %
+16:46:20.861 | Progress:  100,0 %
+16:46:21.484 | Progress:  100,0 %
+16:46:22.106 | Progress:  100,0 %
+16:46:22.697 | Progress:  100,0 %
+16:46:23.320 | Progress:  100,0 %
+16:46:23.976 | Progress:  100,0 %
+16:46:24.601 | Progress:  100,0 %
+16:46:25.226 | Progress:  100,0 %
+16:46:25.849 | Progress:  100,0 %
+16:46:26.506 | Progress:  100,0 %
+16:46:27.129 | Progress:  100,0 %
+16:46:27.772 | Progress:  100,0 %
+16:46:28.396 | Progress:  100,0 %
+16:46:29.022 | Progress:  100,0 %
+16:46:29.627 | Progress:  100,0 %
+16:46:30.252 | Progress:  100,0 %
+16:46:30.877 | Progress:  100,0 %
+16:46:31.516 | Progress:  100,0 %
+16:46:32.171 | Progress:  100,0 %
+16:46:32.782 | Progress:  100,0 %
+16:46:33.485 | Progress:  100,0 %
+16:46:34.357 | Progress:  100,0 %
+16:46:35.327 | Progress:  100,0 %
+16:46:36.241 | Progress:  100,0 %
+16:46:37.132 | Progress:  100,0 %
+16:46:38.133 | Progress:  100,0 %
+16:46:39.192 | Progress:  100,0 %
+16:46:40.165 | Progress:  100,0 %
+16:46:41.152 | Progress:  100,0 %
+16:46:42.263 | Progress:  100,0 %
+16:46:44.189 | Progress:  100,0 %
+13:06:49.567 | 012|00:01:24.178|[ DONE ]
+13:06:49.567 |                     012|00:01:24.180|[X]  Completed 11 / 14 = 78.6%
+13:06:49.567 |                012|00:01:24.183|(Step 12)
+13:06:49.567 |                     012|00:01:24.185|Setting 'Getter Current_Setpoint' to 1.453
+13:06:49.567 |                     012|00:01:24.190|[X]  Completed 12 / 14 = 85.7%
+13:06:49.567 |                012|00:01:24.193|(Step 13)
+13:06:49.567 |                     012|00:01:24.195|Further changes to 'Settings Getter_Current_Operate' will take effect immediately
+13:06:49.567 |                     012|00:01:24.198|[X]  Completed 13 / 14 = 92.9%
+13:06:49.567 |                012|00:01:24.200|(Step 14)
+13:06:49.567 |                     012|00:01:24.202|Waiting for 10.000 seconds...
+16:46:45.180 | Progress:  100,0 %
+16:46:46.065 | Progress:  100,0 %
+16:46:46.910 | Progress:  100,0 %
+16:46:47.755 | Progress:  100,0 %
+16:46:48.619 | Progress:  100,0 %
+16:46:49.449 | Progress:  100,0 %
+16:46:50.270 | Progress:  100,0 %
+16:46:51.094 | Progress:  100,0 %
+16:46:51.927 | Progress:  100,0 %
+16:46:52.711 | Progress:  100,0 %
+16:46:54.419 | Going from state "Standby" to "On"
+16:46:54.435 | Neutrons off
+16:46:54.436 | Progress:  0,0 %
+13:06:49.567 | 012|00:01:34.217|[ DONE ]
+13:06:49.567 |                     012|00:01:34.219|[X]  Completed 14 / 14 = 100%
+13:06:49.567 |                012|00:01:34.221|Transition succeeded
+13:06:49.567 |           012|00:01:34.224|At state '(3)Standby'
+13:06:51.567 |                014|00:01:34.226|Running actions upon reaching '(3)Standby'...
+13:06:51.567 |                          014|00:01:34.228|Actions upon reaching '(3)Standby' finished
+13:06:51.567 |                014|00:01:34.230|Running actions while at or above '(3)Standby'...
+13:06:52.567 |                          015|00:01:34.233|Actions while at or above '(3)Standby' finished
+13:06:46.567 |      009|00:01:34.235|Desired state is up to '(4)On'
+16:46:55.791 | Neutrons on
+16:46:55.794 | Progress:  100,0 %
+13:06:46.567 | 009|00:01:34.239|Starting transition to '(4)On'
+13:06:53.567 |           016|00:01:34.964|Leaving state '(3)Standby'
+13:06:53.567 |           016|00:01:34.967|Running transition '(3)Standby-->(4)On'
+13:06:53.567 |                016|00:01:34.969|Transition has 14 steps
+13:06:53.567 |                016|00:01:34.971|(Step 1)
+13:06:53.567 |                     016|00:01:34.974|Setting 'Interlock Reset' to 1
+13:06:53.567 |                     016|00:01:34.978|[X]  Completed 1 / 14 = 7.14%
+13:06:53.567 |                016|00:01:34.980|(Step 2)
+13:06:53.567 |                     016|00:01:34.983|Setting 'Interlock Reset' to 0
+13:06:53.567 |                     016|00:01:34.989|[X]  Completed 2 / 14 = 14.3%
+13:06:53.567 |                016|00:01:34.991|(Step 3)
+16:46:57.551 | Progress:  100,0 %
+13:06:53.567 | 016|00:01:34.993|Forcing fault check of 'Faults Interlock'
+13:06:53.567 |                     016|00:01:36.354|Interlock = 4
+13:06:53.567 |                     016|00:01:36.357|[X]  Completed 3 / 14 = 21.4%
+13:06:53.567 |                016|00:01:36.359|(Step 4)
+13:06:53.567 |                     016|00:01:36.361|Turning on 'Suppressor'
+13:06:53.567 |                     016|00:01:36.365|[X]  Completed 4 / 14 = 28.6%
+13:06:53.567 |                016|00:01:36.367|(Step 5)
+13:06:53.567 |                     016|00:01:36.370|Waiting for 'Suppressor Voltage' to be between 100 and Infinity, for up to 60 s...
+13:06:56.567 | 019|00:01:36.373|Received request for '(1)Fault' from 'Interlock'
+13:06:53.567 |                016|00:01:36.376|Step 5 canceled
+16:46:59.180 | Going from state "On" to "Fault"
+16:46:59.210 | Neutrons off
+16:46:59.211 | Progress:  0,0 %
+13:06:56.567 | 019|00:01:36.378|Transition canceled
+13:06:56.567 | 019|00:01:38.050|Canceled the running transition '(3)Standby-->(4)On'
+13:06:56.567 | 019|00:01:38.052|Removed previous request up to '(4)On'
+13:06:56.567 | 019|00:01:38.054|Queued request for '(1)Fault'
+13:06:46.567 |      009|00:01:38.056|Rolling back to '(3)Standby'
+13:06:46.567 |      009|00:01:38.059|Starting transition to '(3)Standby'
+13:06:57.567 |           020|00:01:38.061|Leaving state '(4)On'
+13:06:57.567 |           020|00:01:38.063|Running transition '(4)On-->(3)Standby'
+13:06:57.567 |                020|00:01:38.065|Transition has 6 steps
+13:06:57.567 |                020|00:01:38.068|(Step 1)
+16:47:00.521 | Progress:  0,0 %
+13:06:57.567 | 020|00:01:38.070|Turning off 'Faults Blinkout'
+13:06:57.567 |                     020|00:01:39.824|[X]  Completed 1 / 6 = 16.7%
+13:06:57.567 |                020|00:01:39.826|(Step 2)
+13:06:57.567 |                     020|00:01:39.828|Turning off 'Faults Blinkout'
+13:06:57.567 |                     020|00:01:39.831|[X]  Completed 2 / 6 = 33.3%
+13:06:57.567 |                020|00:01:39.833|(Step 3)
+13:06:57.567 |                     020|00:01:39.835|Turning off 'Anode'
+13:06:57.567 |                     020|00:01:39.839|[X]  Completed 3 / 6 = 50%
+13:06:57.567 |                020|00:01:39.841|(Step 4)
+13:06:57.567 |                     020|00:01:39.844|Waiting for 'Anode Voltage' to be between -Infinity and 20, for up to Infinity s...
+16:47:01.767 | Going from state "Standby" to "Fault"
+16:47:01.767 | Progress:  0,0 %
+13:06:57.567 | 020|00:01:39.846|Anode Voltage = 0.827717635098626 [ DONE ]
+13:06:57.567 |                     020|00:01:41.126|[X]  Completed 4 / 6 = 66.7%
+13:06:57.567 |                020|00:01:41.129|(Step 5)
+13:06:57.567 |                     020|00:01:41.132|Turning off 'Faults Suppressor_Voltage_Too_Low'
+13:06:57.567 |                     020|00:01:41.135|[X]  Completed 5 / 6 = 83.3%
+13:06:57.567 |                020|00:01:41.137|(Step 6)
+13:06:57.567 |                     020|00:01:41.139|Turning off 'Suppressor'
+13:06:57.567 |                     020|00:01:41.142|[X]  Completed 6 / 6 = 100%
+13:06:57.567 |                020|00:01:41.144|Transition succeeded
+13:06:57.567 |           020|00:01:41.147|At state '(3)Standby'
+16:47:02.983 | Neutrons on
+16:47:02.985 | Progress:  0,0 %
+13:06:46.567 | 009|00:01:41.149|Desired state is down to '(1)Fault'
+13:06:46.567 |      009|00:01:42.444|Starting transition to '(2)Off'
+13:06:58.567 |           021|00:01:42.446|Leaving state '(3)Standby'
+13:06:58.567 |           021|00:01:42.448|Running transition '(3)Standby-->(2)Off'
+13:06:58.567 |                021|00:01:42.451|Transition has 5 steps
+13:06:58.567 |                021|00:01:42.454|(Step 1)
+13:06:58.567 |                     021|00:01:42.456|Turning off 'Getter'
+13:06:58.567 |                     021|00:01:42.459|[X]  Completed 1 / 5 = 20%
+13:06:58.567 |                021|00:01:42.462|(Step 2)
+13:06:58.567 |                     021|00:01:42.464|Turning off 'RF'
+13:06:58.567 |                     021|00:01:42.467|[X]  Completed 2 / 5 = 40%
+16:47:04.264 | Going from state "Off" to "Fault"
+16:47:04.283 | Neutrons off
+16:47:04.284 | Progress:  0,0 %
+13:06:58.567 | 021|00:01:42.469|(Step 3)
+13:06:58.567 |                     021|00:01:43.690|Further changes to 'Settings Pulsing_Duty_Cycle' won't take effect immediately
+13:06:58.567 |                     021|00:01:43.693|[X]  Completed 3 / 5 = 60%
+13:06:58.567 |                021|00:01:43.695|(Step 4)
+13:06:58.567 |                     021|00:01:43.697|Setting 'Pulsing Duty_Cycle' to 0
+13:06:58.567 |                     021|00:01:43.701|[X]  Completed 4 / 5 = 80%
+13:06:58.567 |                021|00:01:43.704|(Step 5)
+13:06:58.567 |                     021|00:01:43.706|Not restriking
+13:06:58.567 |                     021|00:01:43.709|[X]  Completed 5 / 5 = 100%
+13:06:58.567 |                021|00:01:43.711|Transition succeeded
+13:06:58.567 |           021|00:01:43.713|At state '(2)Off'
+16:47:04.558 | Warning:  Query response (length=26) was not the expected length (30)
+16:47:04.560 |           Response was "105.881	41.6836102157203	207.583	0	1.56	0.03848	0	0.001813	0	0	0	100	14.98	0.002665	0.01903	200	0	0	1	0	1	-1	1	0	-1	Exception was thrown: System.NullReferenceException"
+16:47:04.562 |           ┃1│105.881┃2│41.6836102157203┃3│207.583┃4│0┃5│1.56┃6│0.03848┃7│0┃8│0.001813┃9│0┃10│0┃11│0┃12│100┃13│14.98┃14│0.002665┃15│0.01903┃16│200┃17│0┃18│0┃19│1┃20│0┃21│1┃22│-1┃23│1┃24│0┃25│-1┃26│Exception was thrown: System.NullReferenceException┃
+16:47:04.825 | Warning:  Query response (length=26) was not the expected length (30)
+16:47:04.825 |           Response was "106.149	42.4175551698487	207.583	0	1.066	0.04215	0	0.001511	0	0	0	100	14.98	0.002328	0.0571	200	0	0	1	0	1	-1	1	0	-1	Exception was thrown: System.NullReferenceException"
+16:47:04.834 |           ┃1│106.149┃2│42.4175551698487┃3│207.583┃4│0┃5│1.066┃6│0.04215┃7│0┃8│0.001511┃9│0┃10│0┃11│0┃12│100┃13│14.98┃14│0.002328┃15│0.0571┃16│200┃17│0┃18│0┃19│1┃20│0┃21│1┃22│-1┃23│1┃24│0┃25│-1┃26│Exception was thrown: System.NullReferenceException┃
+16:47:05.080 | Warning:  Query response (length=26) was not the expected length (30)
+16:47:05.089 |           Response was "106.403	42.4770642201835	207.583	0	1.066	0.04205	0	0.001813	0	0	0	100	14.98	0.002058	0.02538	200	0	0	1	0	1	-1	1	0	-1	Exception was thrown: System.NullReferenceException"
+16:47:05.091 |           ┃1│106.403┃2│42.4770642201835┃3│207.583┃4│0┃5│1.066┃6│0.04205┃7│0┃8│0.001813┃9│0┃10│0┃11│0┃12│100┃13│14.98┃14│0.002058┃15│0.02538┃16│200┃17│0┃18│0┃19│1┃20│0┃21│1┃22│-1┃23│1┃24│0┃25│-1┃26│Exception was thrown: System.NullReferenceException┃
+16:47:05.357 | Warning:  Query response (length=26) was not the expected length (30)
+16:47:05.357 |           Response was "106.659	42.0009918175056	207.583	0	0.9232	0.04156	0	0.001913	0	0	0	100	14.98	0.001991	0.02538	200	0	0	1	0	1	-1	1	0	-1	Exception was thrown: System.NullReferenceException"
+16:47:05.357 |           ┃1│106.659┃2│42.0009918175056┃3│207.583┃4│0┃5│0.9232┃6│0.04156┃7│0┃8│0.001913┃9│0┃10│0┃11│0┃12│100┃13│14.98┃14│0.001991┃15│0.02538┃16│200┃17│0┃18│0┃19│1┃20│0┃21│1┃22│-1┃23│1┃24│0┃25│-1┃26│Exception was thrown: System.NullReferenceException┃
+16:47:05.608 | Warning:  Query response (length=26) was not the expected length (30)
+16:47:05.608 |           Response was "106.929	42.1001735680635	207.583	0	0.7481	0.03977	0	0.00997	0	0	0	100	14.98	0.002564	0	200	0	0	1	0	1	-1	1	0	-1	Exception was thrown: System.NullReferenceException"
+16:47:05.608 |           ┃1│106.929┃2│42.1001735680635┃3│207.583┃4│0┃5│0.7481┃6│0.03977┃7│0┃8│0.00997┃9│0┃10│0┃11│0┃12│100┃13│14.98┃14│0.002564┃15│0┃16│200┃17│0┃18│0┃19│1┃20│0┃21│1┃22│-1┃23│1┃24│0┃25│-1┃26│Exception was thrown: System.NullReferenceException┃
+16:47:05.869 | Warning:  Query response (length=26) was not the expected length (30)
+16:47:05.869 |           Response was "107.190	41.6836102157203	207.583	0	0.4139	0.04543	0	0.004028	0	0	0	100	14.98	0.00108	0	200	0	0	1	0	1	-1	1	0	-1	Exception was thrown: System.NullReferenceException"
+16:47:05.869 |           ┃1│107.190┃2│41.6836102157203┃3│207.583┃4│0┃5│0.4139┃6│0.04543┃7│0┃8│0.004028┃9│0┃10│0┃11│0┃12│100┃13│14.98┃14│0.00108┃15│0┃16│200┃17│0┃18│0┃19│1┃20│0┃21│1┃22│-1┃23│1┃24│0┃25│-1┃26│Exception was thrown: System.NullReferenceException┃
+16:47:06.126 | Warning:  Query response (length=26) was not the expected length (30)
+16:47:06.126 |           Response was "107.438	42.6555913711877	207.583	0	0.7481	0.03868	0	0.003424	0	0	0	100	14.98	0.001046	0.05076	200	0	0	1	0	1	-1	1	0	-1	Exception was thrown: System.NullReferenceException"
+16:47:06.133 |           ┃1│107.438┃2│42.6555913711877┃3│207.583┃4│0┃5│0.7481┃6│0.03868┃7│0┃8│0.003424┃9│0┃10│0┃11│0┃12│100┃13│14.98┃14│0.001046┃15│0.05076┃16│200┃17│0┃18│0┃19│1┃20│0┃21│1┃22│-1┃23│1┃24│0┃25│-1┃26│Exception was thrown: System.NullReferenceException┃
+16:47:06.392 | Warning:  Query response (length=26) was not the expected length (30)
+16:47:06.402 |           Response was "107.695	41.981155467394	207.583	0	0.9869	0.04255	0	0.01007	0	0	0	100	14.98	0.002665	0.02538	200	0	0	1	0	1	-1	1	0	-1	Exception was thrown: System.NullReferenceException"
+16:47:06.404 |           ┃1│107.695┃2│41.981155467394┃3│207.583┃4│0┃5│0.9869┃6│0.04255┃7│0┃8│0.01007┃9│0┃10│0┃11│0┃12│100┃13│14.98┃14│0.002665┃15│0.02538┃16│200┃17│0┃18│0┃19│1┃20│0┃21│1┃22│-1┃23│1┃24│0┃25│-1┃26│Exception was thrown: System.NullReferenceException┃
+16:47:06.649 | Warning:  Query response (length=26) was not the expected length (30)
+16:47:06.649 |           Response was "107.974	42.1001735680635	207.583	0	0.573	0.04195	0	0.009769	0	0	0	100	14.98	0.003036	0.01903	200	0	0	1	0	1	-1	1	0	-1	Exception was thrown: System.NullReferenceException"
+16:47:06.661 |           ┃1│107.974┃2│42.1001735680635┃3│207.583┃4│0┃5│0.573┃6│0.04195┃7│0┃8│0.009769┃9│0┃10│0┃11│0┃12│100┃13│14.98┃14│0.003036┃15│0.01903┃16│200┃17│0┃18│0┃19│1┃20│0┃21│1┃22│-1┃23│1┃24│0┃25│-1┃26│Exception was thrown: System.NullReferenceException┃
+16:47:06.907 | Warning:  Query response (length=26) was not the expected length (30)
+16:47:06.907 |           Response was "108.230	41.4654103644929	207.583	0	1.433	0.04186	0	0.01057	0	0	0	100	14.98	0.002362	0.03807	200	0	0	1	0	1	-1	1	0	-1	Exception was thrown: System.NullReferenceException"
+16:47:06.917 |           ┃1│108.230┃2│41.4654103644929┃3│207.583┃4│0┃5│1.433┃6│0.04186┃7│0┃8│0.01057┃9│0┃10│0┃11│0┃12│100┃13│14.98┃14│0.002362┃15│0.03807┃16│200┃17│0┃18│0┃19│1┃20│0┃21│1┃22│-1┃23│1┃24│0┃25│-1┃26│Exception was thrown: System.NullReferenceException┃
+16:47:07.182 | Warning:  Query response (length=26) was not the expected length (30)
+16:47:07.187 |           Response was "108.485	41.5050830647161	207.583	0	0.9232	0.04116	0	0.009265	0	0	0	100	14.98	0.002429	0.01903	200	0	0	1	0	1	-1	1	0	-1	Exception was thrown: System.NullReferenceException"
+16:47:07.189 |           ┃1│108.485┃2│41.5050830647161┃3│207.583┃4│0┃5│0.9232┃6│0.04116┃7│0┃8│0.009265┃9│0┃10│0┃11│0┃12│100┃13│14.98┃14│0.002429┃15│0.01903┃16│200┃17│0┃18│0┃19│1┃20│0┃21│1┃22│-1┃23│1┃24│0┃25│-1┃26│Exception was thrown: System.NullReferenceException┃
+16:47:07.438 | Warning:  Query response (length=26) was not the expected length (30)
+16:47:07.443 |           Response was "108.755	41.6241011653856	207.583	0	1.003	0.04007	0	0.01057	0	0	0	100	14.98	0.002429	0	200	0	0	1	0	1	-1	1	0	-1	Exception was thrown: System.NullReferenceException"
+16:47:07.443 |           ┃1│108.755┃2│41.6241011653856┃3│207.583┃4│0┃5│1.003┃6│0.04007┃7│0┃8│0.01057┃9│0┃10│0┃11│0┃12│100┃13│14.98┃14│0.002429┃15│0┃16│200┃17│0┃18│0┃19│1┃20│0┃21│1┃22│-1┃23│1┃24│0┃25│-1┃26│Exception was thrown: System.NullReferenceException┃
+16:47:07.694 | Warning:  Query response (length=26) was not the expected length (30)
+16:47:07.699 |           Response was "109.016	42.2588643689561	207.583	0	1.385	0.04424	0	0.00997	0	0	0	100	14.98	0.002362	0.0571	200	0	0	1	0	1	-1	1	0	-1	Exception was thrown: System.NullReferenceException"
+16:47:07.701 |           ┃1│109.016┃2│42.2588643689561┃3│207.583┃4│0┃5│1.385┃6│0.04424┃7│0┃8│0.00997┃9│0┃10│0┃11│0┃12│100┃13│14.98┃14│0.002362┃15│0.0571┃16│200┃17│0┃18│0┃19│1┃20│0┃21│1┃22│-1┃23│1┃24│0┃25│-1┃26│Exception was thrown: System.NullReferenceException┃
+16:47:07.950 | Warning:  Query response (length=26) was not the expected length (30)
+16:47:07.954 |           Response was "109.270	41.4654103644929	207.583	0	1.082	0.04235	0	0.001309	0	0	0	100	14.98	0.002429	0.05076	200	0	0	1	0	1	-1	1	0	-1	Exception was thrown: System.NullReferenceException"
+16:47:07.954 |           ┃1│109.270┃2│41.4654103644929┃3│207.583┃4│0┃5│1.082┃6│0.04235┃7│0┃8│0.001309┃9│0┃10│0┃11│0┃12│100┃13│14.98┃14│0.002429┃15│0.05076┃16│200┃17│0┃18│0┃19│1┃20│0┃21│1┃22│-1┃23│1┃24│0┃25│-1┃26│Exception was thrown: System.NullReferenceException┃
+16:47:08.224 | Warning:  Query response (length=26) was not the expected length (30)
+16:47:08.227 |           Response was "109.526	41.4257376642698	207.583	0	1.401	0.04176	0	0.003827	0	0	0	100	14.98	0.002395	0.05076	200	0	0	1	0	1	-1	1	0	-1	Exception was thrown: System.NullReferenceException"
+16:47:08.229 |           ┃1│109.526┃2│41.4257376642698┃3│207.583┃4│0┃5│1.401┃6│0.04176┃7│0┃8│0.003827┃9│0┃10│0┃11│0┃12│100┃13│14.98┃14│0.002395┃15│0.05076┃16│200┃17│0┃18│0┃19│1┃20│0┃21│1┃22│-1┃23│1┃24│0┃25│-1┃26│Exception was thrown: System.NullReferenceException┃
+16:47:08.465 | Warning:  Query response (length=26) was not the expected length (30)
+16:47:08.467 |           Response was "109.794	42.1001735680635	207.583	0	1.019	0.04275	0	0.01148	0	0	0	100	14.98	0.00253	0	200	0	0	1	0	1	-1	1	0	-1	Exception was thrown: System.NullReferenceException"
+16:47:08.469 |           ┃1│109.794┃2│42.1001735680635┃3│207.583┃4│0┃5│1.019┃6│0.04275┃7│0┃8│0.01148┃9│0┃10│0┃11│0┃12│100┃13│14.98┃14│0.00253┃15│0┃16│200┃17│0┃18│0┃19│1┃20│0┃21│1┃22│-1┃23│1┃24│0┃25│-1┃26│Exception was thrown: System.NullReferenceException┃
+16:47:08.736 | Warning:  Query response (length=26) was not the expected length (30)
+16:47:08.736 |           Response was "110.040	41.6241011653856	207.583	0	0.8755	0.04275	0	0.002115	0	0	0	100	14.98	0.002766	0.01269	200	0	0	1	0	1	-1	1	0	-1	Exception was thrown: System.NullReferenceException"
+16:47:08.736 |           ┃1│110.040┃2│41.6241011653856┃3│207.583┃4│0┃5│0.8755┃6│0.04275┃7│0┃8│0.002115┃9│0┃10│0┃11│0┃12│100┃13│14.98┃14│0.002766┃15│0.01269┃16│200┃17│0┃18│0┃19│1┃20│0┃21│1┃22│-1┃23│1┃24│0┃25│-1┃26│Exception was thrown: System.NullReferenceException┃
+16:47:08.992 | Warning:  Query response (length=26) was not the expected length (30)
+16:47:08.992 |           Response was "110.309	41.9414827671708	207.583	0	0.8277	0.04186	0	0.01098	0	0	0	100	14.98	0.002193	0.06979	200	0	0	1	0	1	-1	1	0	-1	Exception was thrown: System.NullReferenceException"
+16:47:08.992 |           ┃1│110.309┃2│41.9414827671708┃3│207.583┃4│0┃5│0.8277┃6│0.04186┃7│0┃8│0.01098┃9│0┃10│0┃11│0┃12│100┃13│14.98┃14│0.002193┃15│0.06979┃16│200┃17│0┃18│0┃19│1┃20│0┃21│1┃22│-1┃23│1┃24│0┃25│-1┃26│Exception was thrown: System.NullReferenceException┃
+16:47:09.249 | Warning:  Query response (length=26) was not the expected length (30)
+16:47:09.249 |           Response was "110.565	41.8819737168361	207.583	0	1.066	0.04493	0	0.0008057	0	0	0	100	14.98	0.002328	0	200	0	0	1	0	1	-1	1	0	-1	Exception was thrown: System.NullReferenceException"
+16:47:09.255 |           ┃1│110.565┃2│41.8819737168361┃3│207.583┃4│0┃5│1.066┃6│0.04493┃7│0┃8│0.0008057┃9│0┃10│0┃11│0┃12│100┃13│14.98┃14│0.002328┃15│0┃16│200┃17│0┃18│0┃19│1┃20│0┃21│1┃22│-1┃23│1┃24│0┃25│-1┃26│Exception was thrown: System.NullReferenceException┃
+16:47:09.504 | Warning:  Query response (length=26) was not the expected length (30)
+16:47:09.504 |           Response was "110.827	41.8621373667245	207.583	0	1.576	0.04195	0	0.01027	0	0	0	100	14.98	0.002125	0	200	0	0	1	0	1	-1	1	0	-1	Exception was thrown: System.NullReferenceException"
+16:47:09.504 |           ┃1│110.827┃2│41.8621373667245┃3│207.583┃4│0┃5│1.576┃6│0.04195┃7│0┃8│0.01027┃9│0┃10│0┃11│0┃12│100┃13│14.98┃14│0.002125┃15│0┃16│200┃17│0┃18│0┃19│1┃20│0┃21│1┃22│-1┃23│1┃24│0┃25│-1┃26│Exception was thrown: System.NullReferenceException┃
+16:47:09.761 | Warning:  Query response (length=26) was not the expected length (30)
+16:47:09.763 |           Response was "111.076	41.7827919662782	207.583	0	1.003	0.03947	0	0.002618	0	0	0	100	14.98	0.001856	0.02538	200	0	0	1	0	1	-1	1	0	-1	Exception was thrown: System.NullReferenceException"
+16:47:09.766 |           ┃1│111.076┃2│41.7827919662782┃3│207.583┃4│0┃5│1.003┃6│0.03947┃7│0┃8│0.002618┃9│0┃10│0┃11│0┃12│100┃13│14.98┃14│0.001856┃15│0.02538┃16│200┃17│0┃18│0┃19│1┃20│0┃21│1┃22│-1┃23│1┃24│0┃25│-1┃26│Exception was thrown: System.NullReferenceException┃
+16:47:09.766 | Transition from "Off" to "Fault" took 00:00:05.5024188
+16:47:09.766 | At state "Disconnected"
+16:47:09.774 | Progress:  100,0 %
+16:47:10.993 | At state "Disconnected" for 00:00:01.2266215
+16:47:11.001 | Going from state "Disconnected" to "Off"
+16:47:11.006 | Progress:  0,0 %
+16:47:11.009 | Attempting to connect to neutron generator...
+16:47:11.010 | Progress:  0,0 %
+16:47:11.012 | Progress:  12,5 %
+16:47:11.015 | Trying COM5 ...
+16:47:12.116 | COM5 opened, received "nGen-400"
+16:47:12.116 | Progress:  25,0 %
+16:47:12.125 | Progress:  25,0 %
+16:47:12.126 | Connected to nGen-400 on COM5
+16:47:12.165 | Build = "2026.10.02_13.53"

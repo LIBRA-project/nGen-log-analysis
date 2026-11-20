@@ -1,0 +1,41 @@
+Microcontroller E01S
+16:47:12.296 | mercoledì 18 novembre 2026
+16:47:12.297 | Serial #42202
+16:47:12.299 | On time 207.6
+16:47:12.322 | Checking for bundled configuration:
+16:47:12.329 | 	Progress:  37,5 %
+16:47:12.331 | 	Bundled configuration not found
+16:47:13.050 | 	Progress:  50,0 %
+16:47:13.051 | Checking for user settings:
+16:47:13.055 | 	Progress:  62,5 %
+16:47:13.055 | 	No modified settings.
+16:47:13.057 | Setting up user controls:
+16:47:13.097 | 	Checking for Neutron_Count_Rate ... [ NOT present ]
+16:47:13.097 | 	Checking for Getter_Current ... [ PRESENT ]
+16:47:13.097 | 		Range: 14 to 15
+16:47:13.097 | 		Intial value = 1453
+16:47:13.097 | 	Checking for Pulsing ... [ PRESENT ]
+16:47:13.111 | 	Checking for RF_Frequency ... [ PRESENT ]
+16:47:13.111 | 		Range: 149 to 151
+16:47:13.111 | 		Intial value = 1498
+16:47:13.111 | 	Checking for Anode_Voltage ... [ PRESENT ]
+16:47:13.111 | 		Range: 120 to 160
+16:47:13.111 | 		Intial value = 120
+16:47:13.351 | Progress:  75,0 %
+16:47:15.963 | Warning:  Query taking a long time.  Watchdog timer reset manually.
+16:47:18.471 | Warning:  Query taking a long time.  Watchdog timer reset manually.
+16:47:18.559 | Transition from "Disconnected" to "Off" took 00:00:07.5659224
+16:47:18.559 | At state "Disconnected"
+16:47:18.576 | Progress:  100,0 %
+16:47:19.785 | At state "Disconnected" for 00:00:01.2259695
+16:47:19.788 | Going from state "Disconnected" to "Off"
+16:47:19.789 | Progress:  0,0 %
+16:47:19.791 | Attempting to connect to neutron generator...
+16:47:19.791 | Progress:  0,0 %
+16:47:19.797 | Progress:  12,5 %
+16:47:19.797 | Trying COM5 ...
+16:47:21.125 | COM5 opened, received "nGen-400"
+16:47:21.125 | Progress:  25,0 %
+16:47:21.125 | Progress:  25,0 %
+16:47:21.132 | Connected to nGen-400 on COM5
+16:47:21.171 | Build = "2026.10.02_13.53"

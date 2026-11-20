@@ -1,0 +1,40 @@
+nGen Controller version 1.1.5.20
+16:45:15.235 | mercoledì 18 novembre 2026
+16:45:15.236 | At state "Disconnected"
+16:45:15.251 | At state "Disconnected" for 00:00:00.0156531
+16:45:15.251 | Going from state "Disconnected" to "Off"
+16:45:15.267 | Progress:  0,0 %
+16:45:15.267 | Attempting to connect to neutron generator...
+16:45:15.267 | Progress:  0,0 %
+16:45:15.267 | Progress:  12,5 %
+16:45:15.267 | Trying COM5 ...
+16:45:16.358 | COM5 opened, received "nGen-400"
+16:45:16.358 | Progress:  25,0 %
+16:45:16.358 | Progress:  25,0 %
+16:45:16.380 | Connected to nGen-400 on COM5
+16:45:16.422 | Build = "2026.10.02_13.53"
+16:45:16.548 | mercoledì 18 novembre 2026
+16:45:16.549 | Microcontroller E01S
+16:45:16.549 | Serial #42202
+16:45:16.565 | On time 207.6
+16:45:16.581 | Checking for bundled configuration:
+16:45:16.581 | 	Progress:  37,5 %
+16:45:16.581 | 	Bundled configuration not found
+16:45:17.305 | 	Progress:  50,0 %
+16:45:17.305 | Checking for user settings:
+16:45:17.321 | 	Progress:  62,5 %
+16:45:17.321 | 	No modified settings.
+16:45:17.321 | Setting up user controls:
+16:45:17.353 | 	Checking for Neutron_Count_Rate ... [ NOT present ]
+16:45:17.353 | 	Checking for Getter_Current ... [ PRESENT ]
+16:45:17.353 | 		Range: 14 to 15
+16:45:17.353 | 		Intial value = 1453
+16:45:17.369 | 	Checking for Pulsing ... [ PRESENT ]
+16:45:17.385 | 	Checking for RF_Frequency ... [ PRESENT ]
+16:45:17.385 | 		Range: 149 to 151
+16:45:17.385 | 		Intial value = 1498
+16:45:17.385 | 	Checking for Anode_Voltage ... [ PRESENT ]
+16:45:17.385 | 		Range: 120 to 160
+16:45:17.385 | 		Intial value = 120
+16:45:17.627 | Progress:  75,0 %
+16:45:19.880 | Warning:  Variable priority length (1) != number of variables (25)
