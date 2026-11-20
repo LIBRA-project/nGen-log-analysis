@@ -1,0 +1,49 @@
+Microcontroller E01S
+16:48:38.727 | mercoledì 18 novembre 2026
+16:48:38.728 | Serial #42202
+16:48:38.733 | On time 207.6
+16:48:38.772 | Checking for bundled configuration:
+16:48:38.781 | 	Progress:  37,5 %
+16:48:38.782 | 	Bundled configuration not found
+16:48:39.496 | 	Progress:  50,0 %
+16:48:39.496 | Checking for user settings:
+16:48:39.505 | 	Progress:  62,5 %
+16:48:39.507 | 	No modified settings.
+16:48:39.510 | Setting up user controls:
+16:48:39.543 | 	Checking for Neutron_Count_Rate ... [ NOT present ]
+16:48:39.543 | 	Checking for Getter_Current ... [ PRESENT ]
+16:48:39.560 | 		Range: 14 to 15
+16:48:39.560 | 		Intial value = 1453
+16:48:39.565 | 	Checking for Pulsing ... [ PRESENT ]
+16:48:39.571 | 	Checking for RF_Frequency ... [ PRESENT ]
+16:48:39.571 | 		Range: 149 to 151
+16:48:39.571 | 		Intial value = 1498
+16:48:39.575 | 	Checking for Anode_Voltage ... [ PRESENT ]
+16:48:39.578 | 		Range: 120 to 160
+16:48:39.578 | 		Intial value = 120
+16:48:39.814 | Progress:  75,0 %
+16:48:42.621 | Warning:  Query taking a long time.  Watchdog timer reset manually.
+16:48:45.110 | Warning:  Query taking a long time.  Watchdog timer reset manually.
+16:48:46.638 | Transition from "Disconnected" to "Off" took 00:00:09.2045124
+16:48:46.648 | At state "Disconnected"
+16:48:46.654 | Progress:  100,0 %
+16:48:47.886 | At state "Disconnected" for 00:00:01.2471873
+16:48:47.888 | Going from state "Disconnected" to "Off"
+16:48:47.891 | Progress:  0,0 %
+16:48:47.891 | Attempting to connect to neutron generator...
+16:48:47.891 | Progress:  0,0 %
+16:48:47.900 | Progress:  12,5 %
+16:48:47.902 | Trying COM5 ...
+16:48:49.004 | COM5 opened, received "
+16:48:49.004 | State_Machine_Settings
+16:48:49.004 | States
+16:48:49.009 | Time
+16:48:49.009 | Unlock
+16:48:49.009 | Uptime
+16:48:49.009 | Watchdog
+16:48:49.009 | "
+16:48:49.015 | Progress:  25,0 %
+16:48:50.238 | Progress:  0,0 %
+16:48:50.238 | Progress:  25,0 %
+16:48:50.238 | Connected to nGen-400 on COM5
+16:48:50.284 | Build = "2026.10.02_13.53"
